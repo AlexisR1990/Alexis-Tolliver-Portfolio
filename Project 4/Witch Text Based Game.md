@@ -1,5 +1,5 @@
 
-# Define new function which includes a greeting, instructions, command list, and inventory list
+#### Define new function which includes a greeting, instructions, command list, and inventory list
 
 def welcome_instructions():
     print('Welcome to the Wicked Witch game!')
@@ -10,19 +10,18 @@ def welcome_instructions():
     print('Inventory List: []')
 
 
-# Display the welcome_instruction function
+#### Display the welcome_instruction function
 
 welcome_instructions()
 
 
-# Create new main function which holds entire game
-# A dictionary for the simplified wicked witch text game
-# The dictionary links a room to other rooms with
-# corresponding directions and items.
+#### Create new main function which holds entire game
+#### A dictionary for the simplified wicked witch text game
+#### The dictionary links a room to other rooms with
+#### corresponding directions and items.
 
 def main():
 
-    
     rooms = {
         'Mudroom': {'West': 'Basement'},
         'Basement': {'South': 'Kitchen', 'East': 'Mudroom', 'item': 'Bat Blood'},
