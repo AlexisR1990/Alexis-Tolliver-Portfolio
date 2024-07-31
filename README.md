@@ -1,6 +1,6 @@
-# Alexis Tolliver's Portfolio
+# Data Analyst
 ---
-layout: default
+Garrison, New York
 ---
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
