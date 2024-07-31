@@ -16,11 +16,13 @@ welcome_instructions()
 
 
 # Create new main function which holds entire game
+# A dictionary for the simplified wicked witch text game
+# The dictionary links a room to other rooms with
+# corresponding directions and items.
 
 def main():
-    # A dictionary for the simplified wicked witch text game
-    # The dictionary links a room to other rooms with
-    # corresponding directions and items.
+
+    
     rooms = {
         'Mudroom': {'West': 'Basement'},
         'Basement': {'South': 'Kitchen', 'East': 'Mudroom', 'item': 'Bat Blood'},
