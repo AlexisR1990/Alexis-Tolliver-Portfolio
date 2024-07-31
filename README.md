@@ -5,7 +5,7 @@ layout: default
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
-[Link to LinkedIn page](./[another-page.html](https://www.linkedin.com/in/alexis-tolliver-8b7bb2233)).
+[Link to LinkedIn page](./(https://www.linkedin.com/in/alexis-tolliver-8b7bb2233)).
 
 There should be whitespace between paragraphs.
 
