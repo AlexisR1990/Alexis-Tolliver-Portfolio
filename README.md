@@ -1,4 +1,5 @@
-# Data Analyst
+# Alexis Tolliver
+Data Analyst
 ---
 Garrison, New York
 ---
