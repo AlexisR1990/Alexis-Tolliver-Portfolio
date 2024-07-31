@@ -1,24 +1,4 @@
 
-{
- "cells": [
-  {
-   "cell_type": "markdown",
-   "id": "e749582b",
-   "metadata": {},
-   "source": [
-    "# NBA Web Scraping\n",
-    "\n",
-    "## Introduction\n",
-    "> In this project, I used Python to create a text-based game. In this game a witch breaks into your home and 
-you want to defeat her before she makes your family laugh to death. In order to defeat her you must go to each 
-room and collect all 6 inventory items finding the witch in the livingroom to defeat her. \n"
-   ]
-  },
-
-
-
-
-
 # Define new function which includes a greeting, instructions, command list, and inventory list
 def welcome_instructions():
     print('Welcome to the Wicked Witch game!')
