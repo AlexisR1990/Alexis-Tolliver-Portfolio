@@ -7,7 +7,7 @@ Garrison, New York
 
 
 
-Welcome to my page!
+## Welcome to my page!
 
 Thank you for taking the time to check out my porfolio.
 
