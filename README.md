@@ -1,8 +1,12 @@
 # Alexis Tolliver's Portfolio
 
+>
 > ### Data Analyst
+> 
 
+>
 > #### Garrison, New York
+> 
 
 
 
