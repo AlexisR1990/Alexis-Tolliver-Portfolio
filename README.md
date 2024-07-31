@@ -4,9 +4,15 @@ Data Analyst
 Garrison, New York
 ---
 
+
+
+
 Welcome to my page!
 
 Thank you for taking the time to check out my porfolio.
+
+
+
 
 
 # A little bit about me
