@@ -44,6 +44,29 @@ Starting with our first model, I used a first order regression model with quanti
 > Using the results above I was able to create a multiple regression model equation.
 > <img width="581" alt="Screenshot 2024-08-01 at 10 11 06 AM" src="https://github.com/user-attachments/assets/57162f32-7e51-47df-bf14-54dee619ae83">
 
+> Here is where I obtained the fitted values as well as the residuals.
+
+<img width="688" alt="Screenshot 2024-08-01 at 9 49 31 AM" src="https://github.com/user-attachments/assets/48823301-b57d-402c-b77d-585223ec1c18">
+
+> This is a sample view of the fitted values results
+<img width="643" alt="Screenshot 2024-08-01 at 1 25 52 PM" src="https://github.com/user-attachments/assets/cea79051-085f-42e3-8987-5cb6b01e686a">
+
+
+> This is a sample view of the residuls results
+<img width="593" alt="Screenshot 2024-08-01 at 1 26 08 PM" src="https://github.com/user-attachments/assets/b17785f2-93e0-4957-ae1c-4afaafd57c36">
+
+
+> Next I created a scatter plot of the residuals against the fitted values as well as a Normal Q-Q plot.
+
+<img width="703" alt="Screenshot 2024-08-01 at 9 53 14 AM" src="https://github.com/user-attachments/assets/10408852-d86e-4a11-8528-752fd4bf14ad">
+
+> As you can see from the scatterplot below there is no trend that indicates homoscedasticity.
+<img width="658" alt="Screenshot 2024-08-01 at 9 53 23 AM" src="https://github.com/user-attachments/assets/58764dd4-6d81-47e6-a6e1-bb3ca506b9fb">
+
+> According to the Normal Q-Q Plot below there is an upward trend which allows us to belive that the constant variance assumption and the normality assumption appear to hold.
+
+<img width="652" alt="Screenshot 2024-08-01 at 9 53 32 AM" src="https://github.com/user-attachments/assets/fc61c451-b16b-4543-b9cd-d699519a035b">
+
 > An F-test was also performed to evaluate the significance of the model.
 <img width="570" alt="Screenshot 2024-08-01 at 10 25 08 AM" src="https://github.com/user-attachments/assets/839331a3-c9be-439b-a1f0-23e58115b3f9">
 
@@ -57,41 +80,18 @@ Starting with our first model, I used a first order regression model with quanti
 > Yet we must reject the null hypothesis and accept the alternative hypothesis for all other variables, upper-level area, age, bathrooms, view1, and view2 and conclude that they are all signficant at a 5% level of significane due to its p-value.
 
 
-> Here is where I obtained the fitted values as well as the residuals.
-
-<img width="688" alt="Screenshot 2024-08-01 at 9 49 31 AM" src="https://github.com/user-attachments/assets/48823301-b57d-402c-b77d-585223ec1c18">
-
-> This is a sample view of the fitted values results
-
-<img width="674" alt="Screenshot 2024-08-01 at 9 49 49 AM" src="https://github.com/user-attachments/assets/4e4c3197-be95-45b5-a308-b51822b14e49">
-
-> This is a sample view of the residuls results
-
-<img width="588" alt="Screenshot 2024-08-01 at 9 50 06 AM" src="https://github.com/user-attachments/assets/a59596f4-e20b-43fc-b725-7bfd7362ced8">
-
-> Next I created a scatter plot of the residuals against the fitted values as well as a Normal Q-Q plot.
-
-<img width="703" alt="Screenshot 2024-08-01 at 9 53 14 AM" src="https://github.com/user-attachments/assets/10408852-d86e-4a11-8528-752fd4bf14ad">
-
-> As you can see from the scatterplot below there is no trend that indicates homoscedasticity.
-<img width="658" alt="Screenshot 2024-08-01 at 9 53 23 AM" src="https://github.com/user-attachments/assets/58764dd4-6d81-47e6-a6e1-bb3ca506b9fb">
-
-> According to the Normal Q-Q Plot below there is an upward trend which allows us to belive that the constant variance assumption and the normality assumption appear to hold.
-
-<img width="652" alt="Screenshot 2024-08-01 at 9 53 32 AM" src="https://github.com/user-attachments/assets/fc61c451-b16b-4543-b9cd-d699519a035b">
-
-> Now lets switch gears and focus on predicitons for this model.
+Now lets switch gears and focus on predicitons for this model.
 > What would the prediction and confident intervals give us for a home that has a 2,150 squarefoot living area, 1,050 squarefoot upper-level living area, is 15 years old, with 3 bedrooms, and backs out to the road?
 
 <img width="729" alt="Screenshot 2024-08-01 at 10 38 12 AM" src="https://github.com/user-attachments/assets/cfd6ec88-1a37-43c0-a203-4d266c91c076">
 
-Prediction interval results above show that we can say with 90% confidence that a house with these attributes could be anywhere between $239,563 and $680,093
+> Prediction interval results above show that we can say with 90% confidence that a house with these attributes could be anywhere between $239,563 and $680,093
 Confidence interval results above show that we can say with 90% confidence that a house with these attributes could be anywhere between $446,097.90 and $473,568.50, which is a much more narrowed interval.
 
 > What about a house that has a 4,250 squarefoot living area, a 2,100 squarefoot upper-level living area, is 5 years old, with 5 bedrooms, and backs out to a lake?
 <img width="726" alt="Screenshot 2024-08-01 at 10 43 31 AM" src="https://github.com/user-attachments/assets/a47f06d8-0db8-4cbb-8e1e-e2dfa9493042">
 
-Prediciton interval results above show that we can say with 90% confidence that a house with these attributes could be anywhere between $852,522.60 and $1,296,048. 
+> Prediciton interval results above show that we can say with 90% confidence that a house with these attributes could be anywhere between $852,522.60 and $1,296,048. 
 Confidence interval results above show that we can say with 90% confidence that a house with these attributes could be anywhere between $1,045,117 and $1,103,454, which is a much more narrowed interval.
 
 
