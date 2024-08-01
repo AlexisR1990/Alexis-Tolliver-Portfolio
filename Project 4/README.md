@@ -9,8 +9,6 @@
 
 
 
-
-
 ## Summary of Project
 
 This project is a text-based game I created using Python. The wicked witch broke into your house and will put a spell on your entire family which will make them laugh to death unless you defeat her first. In order to defeat the wicked witch you must collect all 6 items from each room before getting to the witch. Once all 6 items are aquired and you get to the witch you can defeat her, but if you get to the witch before collect all 6 items she wins! 
@@ -18,5 +16,5 @@ This project is a text-based game I created using Python. The wicked witch broke
 
 
 
-##### Citation
+##### Resources
 Sharpe, G. (2016). Witch. The real and bloody history behind the witches of Halloween. THINKSTOCK. Retrieved July 31, 2024, from https://www.bbc.com/news/uk-scotland-37822022. 
