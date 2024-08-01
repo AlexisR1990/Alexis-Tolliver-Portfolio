@@ -1,26 +1,14 @@
-{
- "cells": [
-     {
-      "cell_type": "markdown".
-      "id": "e749582b",
-      "metadata": {},
-      "source": [
-      "# Witch Text Based Game\n",
-      "\n",
-      "## Introduction\n",
-      "> In this project, I created a text-based game consisting of going room to room collecting items.\n"
-      ]
-      }
+
 
 "Define new function which includes a greeting, instructions, command list, and inventory list"
 
-def welcome_instructions():
+'''def welcome_instructions():
     print('Welcome to the Wicked Witch game!')
     print('You are home with your family when the Wicked Witch breaks in! To defeat the witch '
           'before she makes your entire family laugh to death, you must collect all of the items in '
           'each room before encountering the witch!')
     print('Command_list: Go North, Go East, Go South, Go West, Get item')
-    print('Inventory List: []')
+    print('Inventory List: []')'''
 
 
 #### Display the welcome_instruction function
