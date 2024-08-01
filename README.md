@@ -1,5 +1,6 @@
 # Alexis Tolliver's Portfolio
-![View recent photos](https://github.com/user-attachments/assets/1c911f5b-4439-410f-a040-be076cd040b2)
+<img width="463" alt="Screenshot 2024-07-31 at 9 31 38 PM" src="https://github.com/user-attachments/assets/2aca681b-f275-4c67-b673-951efdd7a442">
+
 
 
 >
