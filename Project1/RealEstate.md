@@ -17,7 +17,7 @@ First I had to prepare my data set by reading the csv file and converted the var
 <img width="733" alt="Screenshot 2024-08-01 at 8 20 09 AM" src="https://github.com/user-attachments/assets/2f51b232-a5b0-415b-b5d7-5262dcadd147">
 
 ## Model #1
-Next I wanted to create my first model, a multiple regression model with quantitative and qualitative variables. Specifically I wanted to use price for the response variable and sqft_living, sqft_above, age, bathrooms, and view as the predictor variables for this model.
+Started with our first model, I used a multiple regression model with quantitative and qualitative variables. Specifically I wanted to use price for the response variable and sqft_living, sqft_above, age, bathrooms, and view as the predictor variables for this model.
 
 > First I created a scatterplot of living area of the house against price of the house then I created a scatterplot of age of the house against price of the house to see if there was any correlations.
 
@@ -48,10 +48,14 @@ Next I wanted to create my first model, a multiple regression model with quantit
 
 > An F-test was also performed to evaluate the significance of the model.
 <img width="570" alt="Screenshot 2024-08-01 at 10 25 08 AM" src="https://github.com/user-attachments/assets/839331a3-c9be-439b-a1f0-23e58115b3f9">
+
 > Since the p-value is <2.2e-16 we can reject the null hypothesis and accept the alternative hypothese meaning that at least one variable is significant at a 5% level of significance.
+
 > To find out which variable is significant we must do individual beta tests.
 <img width="554" alt="Screenshot 2024-08-01 at 10 28 26 AM" src="https://github.com/user-attachments/assets/8fcf49d1-a774-41b1-8438-695d9a58d577">
+
 > According to the indivual beta tests we can confidently say we must accept the null hypothesis for sqft_living concluding that it is not significant at a 5% level of significant due to its p-value.
+
 > Yet we must reject the null hypothesis and accept the alternative hypothesis for all other variables, sqft_above, age, bathrooms, view1, and view2 and conclude that they are all signficant at a 5% level of significane due to its p-value.
 
 
@@ -90,6 +94,7 @@ Prediciton interval results above show that we can say with 90% confidence that 
 Confidence interval results above show that we can say with 90% confidence that a house with these attributes could be anywhere between $1,045,117 and $1,103,454, which is a much more narrowed interval.
 
 
+# Model #2
 
 
 
