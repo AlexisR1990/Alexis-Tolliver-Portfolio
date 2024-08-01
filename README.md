@@ -15,9 +15,7 @@
 
 
 
-## Welcome to my page!
-
-## A little bit about me
+# A little bit about me
 
 Most of my young adulthood I worked in childcare until I found the Google Data Analytics Certification. This certification was the beginning of something beautiful, my eye-opening facination with data. Once I completed my Google certficiation I found the Data Analytics Certficiation through Break Into Data, but tht was not enough for me. It was then I decided to go back to school for my bachelor's degree in Data Analtyics with a concentration in Project Management for STEM. It was at this time where it became more apparent to me than ever that this is what I was meant to do and when I became fully immersed in all things data. Since then I have learned how to clean and preprocess data, conduct exploratory data analysis, and perform various statistical analysis leading to the ability to discover trends and critical insights. Once the analysis is complete I also learned how to create dashbaords and write reports to communicate my findings with key stakeholders. Some of the various tools I have been able to use are Python, R Programming, SQL, Excel, and Talbeau. I'm always upskilling and ready to expand my knowledge as I am a natural investigator and a lifelong learner at heart.
 
