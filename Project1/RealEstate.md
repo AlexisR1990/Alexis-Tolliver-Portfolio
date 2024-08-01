@@ -17,13 +17,13 @@ First I had to prepare my data set by reading the csv file and converted the var
 <img width="733" alt="Screenshot 2024-08-01 at 8 20 09 AM" src="https://github.com/user-attachments/assets/2f51b232-a5b0-415b-b5d7-5262dcadd147">
 
 # Model #1
-Starting with our first model, I used a first order regression model with quantitative and qualitative variables. Specifically I wanted to use price for the response variable and sqft_living, sqft_above, age, bathrooms, and view as the predictor variables for this model.
+Starting with our first model, I used a first order regression model with quantitative and qualitative variables. Specifically I wanted to use price as the response variable with living area, upper-level area, age of the house, number of bathrooms, and view as predictor variables for this model
 
 > First I created a scatterplot of living area of the house against price of the house then I created a scatterplot of age of the house against price of the house to see if there was any correlations.
 
 <img width="699" alt="Screenshot 2024-08-01 at 9 21 45 AM" src="https://github.com/user-attachments/assets/ce755ea2-9763-4676-9da0-1a1ffb5b117a">
 
-> As you can see from the scatterplot below there is a positive correlation between the living area of a house and the price of the house. Generally, as the price increases the square foot of its living area goes increases.
+> As you can see from the scatterplot below there is a positive correlation between the living area of a house and the price of the house. Generally, as the price increases the square foot of its living area increases as well.
 
 <img width="668" alt="Screenshot 2024-08-01 at 9 21 54 AM" src="https://github.com/user-attachments/assets/8773d8af-aeaf-4c70-b490-bc8413642922">
 
@@ -35,7 +35,7 @@ Starting with our first model, I used a first order regression model with quanti
 
 <img width="699" alt="Screenshot 2024-08-01 at 9 39 25 AM" src="https://github.com/user-attachments/assets/f04080d1-6370-423c-944c-c91c2fde30e5">
 
-> Now we are ready to create a first order regression model. Usig price as the response variable with sqft_living, sqft_above, age, bathrooms, and view as predictor variables. 
+> Now we are ready to create a first order regression model. Using price as the response variable with living area, upper-level area, age of the house, number of bathrooms, and view as predictor variables. 
 
 <img width="703" alt="Screenshot 2024-08-01 at 9 44 17 AM" src="https://github.com/user-attachments/assets/b82b0721-65bd-4628-ad9e-740c0ee8ae14">
 
@@ -52,16 +52,16 @@ Starting with our first model, I used a first order regression model with quanti
 > To find out which variable is significant we must do individual beta tests.
 <img width="554" alt="Screenshot 2024-08-01 at 10 28 26 AM" src="https://github.com/user-attachments/assets/8fcf49d1-a774-41b1-8438-695d9a58d577">
 
-> According to the indivual beta tests we can confidently say we must accept the null hypothesis for sqft_living concluding that it is not significant at a 5% level of significant due to its p-value.
+> According to the indivual beta tests we can confidently say we must accept the null hypothesis for living area concluding that it is not significant at a 5% level of significant due to its p-value.
 
-> Yet we must reject the null hypothesis and accept the alternative hypothesis for all other variables, sqft_above, age, bathrooms, view1, and view2 and conclude that they are all signficant at a 5% level of significane due to its p-value.
+> Yet we must reject the null hypothesis and accept the alternative hypothesis for all other variables, upper-level area, age, bathrooms, view1, and view2 and conclude that they are all signficant at a 5% level of significane due to its p-value.
 
 
 > Here is where I obtained the fitted values as well as the residuals.
 
 <img width="688" alt="Screenshot 2024-08-01 at 9 49 31 AM" src="https://github.com/user-attachments/assets/48823301-b57d-402c-b77d-585223ec1c18">
 
-> This is a sample view of the fitted value results
+> This is a sample view of the fitted values results
 
 <img width="674" alt="Screenshot 2024-08-01 at 9 49 49 AM" src="https://github.com/user-attachments/assets/4e4c3197-be95-45b5-a308-b51822b14e49">
 
@@ -69,11 +69,14 @@ Starting with our first model, I used a first order regression model with quanti
 
 <img width="588" alt="Screenshot 2024-08-01 at 9 50 06 AM" src="https://github.com/user-attachments/assets/a59596f4-e20b-43fc-b725-7bfd7362ced8">
 
-> Next I created a scatter plot of the residuals against the fitted values as well as a Normal Q-Q plot. As you can see from the scatterplot below there is no trend that indicates homoscedasticity. Yet according to the Normal Q-Q Plot below there is an upward trend which allows us to belive that the constant variance assumption and the normality assumption appear to hold.
+> Next I created a scatter plot of the residuals against the fitted values as well as a Normal Q-Q plot.
 
 <img width="703" alt="Screenshot 2024-08-01 at 9 53 14 AM" src="https://github.com/user-attachments/assets/10408852-d86e-4a11-8528-752fd4bf14ad">
 
+> As you can see from the scatterplot below there is no trend that indicates homoscedasticity.
 <img width="658" alt="Screenshot 2024-08-01 at 9 53 23 AM" src="https://github.com/user-attachments/assets/58764dd4-6d81-47e6-a6e1-bb3ca506b9fb">
+
+> According to the Normal Q-Q Plot below there is an upward trend which allows us to belive that the constant variance assumption and the normality assumption appear to hold.
 
 <img width="652" alt="Screenshot 2024-08-01 at 9 53 32 AM" src="https://github.com/user-attachments/assets/fc61c451-b16b-4543-b9cd-d699519a035b">
 
@@ -85,7 +88,7 @@ Starting with our first model, I used a first order regression model with quanti
 Prediction interval results above show that we can say with 90% confidence that a house with these attributes could be anywhere between $239,563 and $680,093
 Confidence interval results above show that we can say with 90% confidence that a house with these attributes could be anywhere between $446,097.90 and $473,568.50, which is a much more narrowed interval.
 
-> What about a house that has a 4,250 squarefoot living area, a 2,100 squart food upper-level living area, is 5 years old, with 5 bedrooms, and backs out to a lake?
+> What about a house that has a 4,250 squarefoot living area, a 2,100 squarefoot upper-level living area, is 5 years old, with 5 bedrooms, and backs out to a lake?
 <img width="726" alt="Screenshot 2024-08-01 at 10 43 31 AM" src="https://github.com/user-attachments/assets/a47f06d8-0db8-4cbb-8e1e-e2dfa9493042">
 
 Prediciton interval results above show that we can say with 90% confidence that a house with these attributes could be anywhere between $852,522.60 and $1,296,048. 
@@ -93,7 +96,7 @@ Confidence interval results above show that we can say with 90% confidence that 
 
 
 # Model #2
-For the second model, I created a complete second order regression model with quantitative variables. Specifically I used price for the response variable, and school rating and crime as the preditor variables.
+For the second model, I created a complete second order regression model with quantitative variables. Specifically I used price as the response variable, and average school rating in the area and crime rate per 100,000 people as predictor variables.
 
 > First I created a scatterplot of school ratings against price and another scatterplot of crime rate against price.
 
@@ -112,7 +115,27 @@ For the second model, I created a complete second order regression model with qu
 > Using the results above I was able to create a second order regression model equation.
 <img width="580" alt="Screenshot 2024-08-01 at 11 53 02 AM" src="https://github.com/user-attachments/assets/14a460f9-038c-43bf-80d1-8697ffaae498">
 
-> An F-test was performed to evaluate the significance of the model
+
+> Here is where I obtained the fitted values as well as the residuals.
+<img width="723" alt="Screenshot 2024-08-01 at 1 11 42 PM" src="https://github.com/user-attachments/assets/57ba3582-c6b1-4be7-ac88-e55b450e6bb1">
+
+> This is a sample view of the fitted values results
+<img width="638" alt="Screenshot 2024-08-01 at 1 12 00 PM" src="https://github.com/user-attachments/assets/e3ab1c55-a472-44c4-b9d2-dded60132350">
+
+> This is a sample view of the residuals value results
+<img width="613" alt="Screenshot 2024-08-01 at 1 12 36 PM" src="https://github.com/user-attachments/assets/ba269e64-f61e-459d-a91c-1a04f70f2fd9">
+
+> Next I created a scatter plot of the residuals against the fitted values as well as a Normal Q-Q plot.
+<img width="729" alt="Screenshot 2024-08-01 at 1 13 41 PM" src="https://github.com/user-attachments/assets/c07653d0-1926-43a5-bd5a-6160b229c3d7">
+
+> As you can see from the scatterplot below there is clustering which indicates homoscedasticity.
+<img width="693" alt="Screenshot 2024-08-01 at 1 13 48 PM" src="https://github.com/user-attachments/assets/e29c93ca-3d91-4335-b187-2d32f6490688">
+
+> According to the Normal Q-Q Plot below there is an upward trend which allows us to belive that the constant variance assumption and the normality assumption appear to hold.
+<img width="686" alt="Screenshot 2024-08-01 at 1 13 57 PM" src="https://github.com/user-attachments/assets/ede9b0f5-b22e-44c3-b5cd-0afbbae7e24a">
+
+
+> An F-test was then performed to evaluate the significance of the model
 <img width="544" alt="Screenshot 2024-08-01 at 11 57 33 AM" src="https://github.com/user-attachments/assets/f2cad90d-2a9c-43a0-a322-4c7f35618a48">
 
 > Since the p-value is <2.2e-16 we can reject the null hypothesis and accept the alternative hypothese meaning that at least one variable is significant at a 5% level of significance.
@@ -120,10 +143,13 @@ For the second model, I created a complete second order regression model with qu
 > To find out which variable is significant we must do individual beta tests.
 <img width="554" alt="Screenshot 2024-08-01 at 10 28 26 AM" src="https://github.com/user-attachments/assets/f6f60a78-d177-4666-9f3e-d1f57a259f15">
 
-> According to the indivual beta tests we can confidently say we must accept the null hypothesis for sqft_living concluding that it is not significant at a 5% level of significant due to its p-value.
+> According to the indivual beta tests we can confidently say we must accept the null hypothesis for school rating:crime, concluding that it is not significant at a 5% level of significant due to its p-value.
 
-> Yet we must reject the null hypothesis and accept the alternative hypothesis for all other variables, sqft_above, age, bathrooms, view1, and view2 and conclude that they are all signficant at a 5% level of significane due to its p-value.
+> Yet we must reject the null hypothesis and accept the alternative hypothesis for all other variables, school rating, crime, school rating squared, and crime squared, and conclude that they are all signficant at a 5% level of significane due to its p-value.
 
+
+> Lastly lets talk about predictions for this model.
+> What would the prediction and confident intervals give us for the price of a home with a school rating of 9.80 and a crime rate of 81.02 per 100,000 individuals?
 
 
 
