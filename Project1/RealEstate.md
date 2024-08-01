@@ -41,6 +41,35 @@ Next I wanted to create my first model, a first order regression model with quan
 
 <img width="673" alt="Screenshot 2024-08-01 at 9 44 34 AM" src="https://github.com/user-attachments/assets/46044007-2c12-4257-aa20-670c7995d3dd">
 
+> Here is where I obtained the fitted values as well as the residuals.
+
+<img width="688" alt="Screenshot 2024-08-01 at 9 49 31 AM" src="https://github.com/user-attachments/assets/48823301-b57d-402c-b77d-585223ec1c18">
+
+> This is a sample view of the fitted value results
+
+<img width="674" alt="Screenshot 2024-08-01 at 9 49 49 AM" src="https://github.com/user-attachments/assets/4e4c3197-be95-45b5-a308-b51822b14e49">
+
+> This is a sample view of the residuls results
+
+<img width="588" alt="Screenshot 2024-08-01 at 9 50 06 AM" src="https://github.com/user-attachments/assets/a59596f4-e20b-43fc-b725-7bfd7362ced8">
+
+> Next I created a scatter plot of the residuals against the fitted values as well as a Normal Q-Q plot.
+
+<img width="703" alt="Screenshot 2024-08-01 at 9 53 14 AM" src="https://github.com/user-attachments/assets/10408852-d86e-4a11-8528-752fd4bf14ad">
+
+<img width="658" alt="Screenshot 2024-08-01 at 9 53 23 AM" src="https://github.com/user-attachments/assets/58764dd4-6d81-47e6-a6e1-bb3ca506b9fb">
+
+<img width="652" alt="Screenshot 2024-08-01 at 9 53 32 AM" src="https://github.com/user-attachments/assets/fc61c451-b16b-4543-b9cd-d699519a035b">
+
+
+
+
+
+
+
+
+
+
 
 
 
