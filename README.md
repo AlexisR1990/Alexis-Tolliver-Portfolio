@@ -3,7 +3,6 @@
 >
 > ### Data Analyst
 > 
-
 >
 > ##### Garrison, New York
 > ###### www.linkedin.com/in/alexis-tolliver-8b7bb2233
