@@ -40,3 +40,11 @@ Next I wanted to create my first model, a first order regression model with quan
 <img width="703" alt="Screenshot 2024-08-01 at 9 44 17 AM" src="https://github.com/user-attachments/assets/b82b0721-65bd-4628-ad9e-740c0ee8ae14">
 
 <img width="673" alt="Screenshot 2024-08-01 at 9 44 34 AM" src="https://github.com/user-attachments/assets/46044007-2c12-4257-aa20-670c7995d3dd">
+
+
+
+
+
+>>
+>> [Back to home page](https://alexisr1990.github.io/Alexis-Tolliver-Portfolio/)
+>> 
