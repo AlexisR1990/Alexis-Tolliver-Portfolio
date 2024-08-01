@@ -30,7 +30,8 @@ Most of my young adulthood I worked in childcare until I found the Google Data A
 
 # Projects
 
-> ### Project 1
+> ### Project 1: Real Estate Housing Analysis
+> This project focuses on using a first order regression model with quantitative and qualitative variables, a complete second order regression model with quantitative variables, and a nested model F-test to use a real estate company's historical data set to analyze the relationships between different attributes of a house and it's selling price. By creating different regression models I then was able to predict sale prices of homes based off of various variable factors. This analysis could then be used to help the real estate company to set better prices for a listing which will ensure the listing to be sold within a reasonable amount of time. 
 > 
 > ### Project 2
 > 
