@@ -15,7 +15,7 @@ This project is a text-based game I created using Python. The wicked witch broke
 
 
 
-## Define new function which includes a greeting, instructions, command list, and inventory list
+### Define new function which includes a greeting, instructions, command list, and inventory list
   
   def welcome_instructions():
       print('Welcome to the Wicked Witch game!')
@@ -26,18 +26,18 @@ This project is a text-based game I created using Python. The wicked witch broke
       print('Inventory List: []')
 
 
-## Display the welcome_instruction function
+### Display the welcome_instruction function
 
   welcome_instructions()
 
 
-## Create new main function which holds entire game
+### Create new main function which holds entire game
   
   def main():
   
-# A dictionary for the simplified wicked witch text game
-# The dictionary links a room to other rooms with
-# corresponding directions and items.
+### A dictionary for the simplified wicked witch text game
+### The dictionary links a room to other rooms with
+### corresponding directions and items.
     
       rooms = {
           'Mudroom': {'West': 'Basement'},
@@ -50,40 +50,40 @@ This project is a text-based game I created using Python. The wicked witch broke
           'Living Room': {'West': 'Dining Room', 'item': 'Wicked Witch'}
       }
 
-# Place user in Mudroom
+### Place user in Mudroom
    
       current_room = 'Mudroom'
       next_move = ''
       inventory = []
 
-# As long as the players next move is not the living room, which holds the witch
+### As long as the players next move is not the living room, which holds the witch
     
       while next_move != 'Living Room':
           print("\nYou are in", current_room)
 
-# Ask user to input their next move
+### Ask user to input their next move
           
           print('What is your next move?')
 
-# Split players input
+### Split players input
           next_move = input().strip().title().split(' ', 1)
 
-# If next move is an option for the current room
+### If next move is an option for the current room
         
           if next_move[0] == 'Go' and len(next_move) == 2:
               if next_move[1] in rooms[current_room]:
                   current_room = rooms[current_room][next_move[1]]
 
-# Show player what room they are now in and ask for their next move
+### Show player what room they are now in and ask for their next move
                 
                   print('Welcome to the', current_room, '!')
 
-# Otherwise tell player they can't go in that direction
+### Otherwise tell player they can't go in that direction
             
               else:
                   print('Uh oh! You cannot go that way! Try again!')
 
-# If next room contains item collect it
+### If next room contains item collect it
           
           elif next_move[0] == 'Get' and next_move[1] == 'Item':
               item = rooms[current_room]['item']
@@ -91,7 +91,7 @@ This project is a text-based game I created using Python. The wicked witch broke
                   inventory.append(rooms[current_room]['item'])
                   print('Nice find! Inventory: ', inventory)
 
-# Otherwise tell player its already in the inventory
+### Otherwise tell player its already in the inventory
             
               else:
                   print('Oops! That item is already in your inventory!')
@@ -100,7 +100,7 @@ This project is a text-based game I created using Python. The wicked witch broke
           if len(inventory) == 6:
               print('Great job! You collected all of the items now you must find the Wicked Witch!')
         
-# If play has all inventory and encounters witch they win
+### If play has all inventory and encounters witch they win
           
           if len(inventory) == 6 and current_room == 'Living Room':
               print('Congratulations! You collected all items and defeated the witch!')
@@ -112,8 +112,11 @@ This project is a text-based game I created using Python. The wicked witch broke
               print('Dun dun dun... You lose!')
               break
 
+### Call main function to start game
 
   main()
+
+
 
 ##### Resources
 Sharpe, G. (2016). Witch. The real and bloody history behind the witches of Halloween. THINKSTOCK. Retrieved July 31, 2024, from https://www.bbc.com/news/uk-scotland-37822022. 
