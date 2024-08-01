@@ -1,6 +1,6 @@
 #Define new function which includes a greeting, instructions, command list, and inventory list"
 
-'''
+'''python
 def welcome_instructions():
     print('Welcome to the Wicked Witch game!')
     print('You are home with your family when the Wicked Witch breaks in! To defeat the witch '
