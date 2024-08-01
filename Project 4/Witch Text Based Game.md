@@ -1,5 +1,5 @@
 
-#### Define new function which includes a greeting, instructions, command list, and inventory list
+"Define new function which includes a greeting, instructions, command list, and inventory list"
 
 def welcome_instructions():
     print('Welcome to the Wicked Witch game!')
