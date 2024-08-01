@@ -1,4 +1,6 @@
 # Alexis Tolliver's Portfolio
+![View recent photos](https://github.com/user-attachments/assets/1c911f5b-4439-410f-a040-be076cd040b2)
+
 
 >
 > ### Data Analyst
