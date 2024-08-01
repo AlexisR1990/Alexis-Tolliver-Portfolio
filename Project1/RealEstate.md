@@ -1,6 +1,9 @@
 # Real Estate Housing Analysis
 > By Alexis Tolliver
->> [Go back home](https://alexisr1990.github.io/Alexis-Tolliver-Portfolio/)
+> 
+>> [Back to home page](https://alexisr1990.github.io/Alexis-Tolliver-Portfolio/)
+>>
+>> 
 ## Summary
 Using a real estate company's historical data set I analyzed relationships between the various attributes of a house and the cost of that house using R programming language. The goal is to predict sale prices using these factors to help the real estate company list their client's houses a better prices which could speed up the time it takes for the house to be sold. Below are the different attributes of the house that I using to conduct my analysis. 
 
@@ -28,3 +31,12 @@ Next I wanted to create my first model, a first order regression model with quan
 
 <img width="642" alt="Screenshot 2024-08-01 at 9 22 08 AM" src="https://github.com/user-attachments/assets/e68cf7d6-2617-42d1-b091-091edbf5e0d5">
 
+> Next I wanted to create a subset of price, living area, and age of the house so I could create a correlation matrix. Looking at the correlation matrix below validates what we were able to see in the scatterplots above. Price has a positive correlation with the living area of the house yet has a low negative correlation with the age of the house. 
+
+<img width="699" alt="Screenshot 2024-08-01 at 9 39 25 AM" src="https://github.com/user-attachments/assets/f04080d1-6370-423c-944c-c91c2fde30e5">
+
+> Now we are ready to create a regression model. Usig price as the response variable with sqft_living, sqft_above, age, bathrooms, and view as predictor variables.
+
+<img width="703" alt="Screenshot 2024-08-01 at 9 44 17 AM" src="https://github.com/user-attachments/assets/b82b0721-65bd-4628-ad9e-740c0ee8ae14">
+
+<img width="673" alt="Screenshot 2024-08-01 at 9 44 34 AM" src="https://github.com/user-attachments/assets/46044007-2c12-4257-aa20-670c7995d3dd">
