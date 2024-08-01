@@ -8,7 +8,7 @@
 ###### [Back to home page](https://alexisr1990.github.io/Alexis-Tolliver-Portfolio/)
 
 ## Summary
-Using a real estate company's historical data set I analyzed relationships between the various attributes of a house and the cost of that house using R programming language. The goal is to predict sale prices using these factors to help the real estate company list their client's houses at a better price which could speed up the time it takes for the house to be sold. Below are the different attributes of the house that I using to conduct my analysis. 
+Using a real estate company's historical data set I analyzed relationships between various attributes of a house and its cost using the R programming language. The goal was to predict sale prices based on these attributes to help the real estate company list their client's homes at optimal prices, which could expedite the selling process. Below are the different attributes of the houses that I used in my analysis. 
 
 ### Variables Used
 <img width="875" alt="Screenshot 2024-08-01 at 9 18 53 AM" src="https://github.com/user-attachments/assets/7f21985f-2911-4b6d-9d57-7ce928808551">
