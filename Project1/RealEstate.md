@@ -16,5 +16,15 @@ First I had to prepare my data set by reading the csv file and converted the var
 ## Create First Model
 Next I wanted to create my first model, a first order regression model with quantitative and qualitative variables. Specifically I wanted to use price for the response variable and sqft_living, sqft_above, age, bathrooms, and view as the predictor variables for this model.
 
-> First I created a scatter plot of living area of the house against price of the house then I created a scatter plot of age of the house against price of the house to see if there was any correlations.
+> First I created a scatterplot of living area of the house against price of the house then I created a scatterplot of age of the house against price of the house to see if there was any correlations.
+
+<img width="699" alt="Screenshot 2024-08-01 at 9 21 45 AM" src="https://github.com/user-attachments/assets/ce755ea2-9763-4676-9da0-1a1ffb5b117a">
+
+> As you can see from the scatterplot below there is a positive correlation between the living area of a house and the price of the house. Generally, as the price increases the square foot of its living area goes increases.
+
+<img width="668" alt="Screenshot 2024-08-01 at 9 21 54 AM" src="https://github.com/user-attachments/assets/8773d8af-aeaf-4c70-b490-bc8413642922">
+
+> Yet as you can see on the scatterplot below, when it comes to the age of the house against the price of the house there is no real correlation visable.
+
+<img width="642" alt="Screenshot 2024-08-01 at 9 22 08 AM" src="https://github.com/user-attachments/assets/e68cf7d6-2617-42d1-b091-091edbf5e0d5">
 
