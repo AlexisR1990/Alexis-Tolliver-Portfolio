@@ -1,3 +1,16 @@
+{
+ "cells": [
+     {
+      "cell_type": "markdown".
+      "id": "e749582b",
+      "metadata": {},
+      "source": [
+      "# Witch Text Based Game\n",
+      "\n",
+      "## Introduction\n",
+      "> In this project, I created a text-based game consisting of going room to room collecting items.\n"
+      ]
+      }
 
 "Define new function which includes a greeting, instructions, command list, and inventory list"
 
