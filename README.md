@@ -6,8 +6,9 @@
 >
 >> ##### Garrison, New York
 >>> ###### [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/alexis-tolliver-8b7bb2233)
-
-
+<br>
+<br>
+<br>
 # About me
 
 During my young adulthood, I worked in childcare until I discovered the Google Data Analytics Certification. This certification marked the beginning of a beautiful journey and ignited my fascination with data. After completing my Google certification, I pursued the Data Analytics Certification through Break Into Data. However, I wanted to delve deeper, so I decided to return to school for a bachelor's degree in Data Analytics with a concentration in Project Management for STEM.
@@ -15,9 +16,7 @@ During my young adulthood, I worked in childcare until I discovered the Google D
 This pivotal moment confirmed that data analytics was my true calling. Since then, I have become fully immersed in the field, learning how to clean and preprocess data, conduct exploratory data analysis, and perform various statistical analyses to uncover trends and critical insights. Additionally, I have gained expertise in creating dashboards and writing reports to communicate my findings effectively to key stakeholders.
 
 I have proficiency in several tools, including Python, R Programming, SQL, Excel, and Tableau. As a natural investigator and lifelong learner, I am continually upskilling and expanding my knowledge to stay at the forefront of data analytics.
-
-
-
+<br>
 # Projects
 
 > ### Project 1: [Real Estate Housing Analysis](Project1/RealEstate.md)
@@ -30,8 +29,11 @@ I have proficiency in several tools, including Python, R Programming, SQL, Excel
 >
 > ### Project 4: [Witch Text Based Game](Project4/Witch.md)
 > This project is one of the first ones I worked on. It involves creating a text-based game where the player navigates through a house, collecting six inventory items from different rooms before encountering the witch. The objective is to gather all six items and then go to the room with the witch to win the game. If the player encounters the witch before collecting all six items, the witch wins!
-
-
-
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 Thank you for checking out my portfolio. Feel free to reach out for any questions or concerns.
 
