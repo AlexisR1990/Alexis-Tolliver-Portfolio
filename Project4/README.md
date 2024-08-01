@@ -17,29 +17,28 @@ This project is a text-based game I created using Python. The wicked witch broke
 
 
 ### Define new function which includes a greeting, instructions, command list, and inventory list
+
+      def welcome_instructions():
+          print('Welcome to the Wicked Witch game!')
+          print('You are home with your family when the Wicked Witch breaks in! To defeat the witch '
+                'before she makes your entire family laugh to death, you must collect all of the items in '
+                 'each room before encountering the witch!')
+          print('Command_list: Go North, Go East, Go South, Go West, Get item')
+          print('Inventory List: []')
+
 ### Display the welcome_instruction function
+
+      welcome_instructions()
+
+
 ### Create new main function which holds entire game
+
+      def main():
+
+
 ### A dictionary for the simplified wicked witch text game
 ### The dictionary links a room to other rooms with
 ### corresponding directions and items.
-    
-
-
-  
-  def welcome_instructions():
-      print('Welcome to the Wicked Witch game!')
-      print('You are home with your family when the Wicked Witch breaks in! To defeat the witch '
-            'before she makes your entire family laugh to death, you must collect all of the items in '
-             'each room before encountering the witch!')
-      print('Command_list: Go North, Go East, Go South, Go West, Get item')
-      print('Inventory List: []')
-
-
-  welcome_instructions()
-
-  
-  def main():
-
 
       rooms = {
           'Mudroom': {'West': 'Basement'},
