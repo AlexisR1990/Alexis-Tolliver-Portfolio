@@ -1,8 +1,5 @@
 # Alexis Tolliver's Portfolio
 ##### <img width="200" alt="Screenshot 2024-07-31 at 9 31 38 PM" src="https://github.com/user-attachments/assets/2aca681b-f275-4c67-b673-951efdd7a442">
-
-
-
 >
 > ### Data Analyst
 > 
@@ -12,12 +9,13 @@
 > 
 
 
-
-
-
 # About me
 
-Most of my young adulthood I worked in childcare until I found the Google Data Analytics Certification. This certification was the beginning of something beautiful, my eye-opening facination with data. Once I completed my Google certficiation I found the Data Analytics Certficiation through Break Into Data, but tht was not enough for me. It was then I decided to go back to school for my bachelor's degree in Data Analtyics with a concentration in Project Management for STEM. It was at this time where it became more apparent to me than ever that this is what I was meant to do and when I became fully immersed in all things data. Since then I have learned how to clean and preprocess data, conduct exploratory data analysis, and perform various statistical analysis leading to the ability to discover trends and critical insights. Once the analysis is complete I also learned how to create dashbaords and write reports to communicate my findings with key stakeholders. Some of the various tools I have been able to use are Python, R Programming, SQL, Excel, and Talbeau. I'm always upskilling and ready to expand my knowledge as I am a natural investigator and a lifelong learner at heart.
+During my young adulthood, I worked in childcare until I discovered the Google Data Analytics Certification. This certification marked the beginning of a beautiful journey and engnited my facination with data. After completing my Google certficiation, I pursued the Data Analytics Certficiation through Break Into Data. However, I wanted to delve deeper, so I decided to return to school for a bachelor's degree in Data Analtyics with a concentration in Project Management for STEM. 
+
+This pivotal moment confirmed that data analytics was my true calling. Since then, I have become fully emerced in the field, learning how to clean and preprocess data, conduct exploratory data analysis, and perform various statistical analyses to uncover trends and critical insights. Additionally, I have gained expertise in creating dashboards and writing reports to communicate my findings to effectively to key stakeholders.
+
+I have proficiency in several tools, including Python, R Programming, SQL, Excel, and Talbeau. As a natural investigator and lifelong learner, I am continually upsilling and expanding my knowledge to stay at the forefront of data analytics.
 
 
 # Projects
