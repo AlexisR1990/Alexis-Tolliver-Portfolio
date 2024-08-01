@@ -38,5 +38,5 @@ Most of my young adulthood I worked in childcare until I found the Google Data A
 > 
 > ### Project 3
 >
-> ### Project 4: [Witch Text Based Game](Project4)
+> ### Project 4: [Witch Text Based Game](Project4/Witch.md)
 > This project is one of my first projects I worked on. It focuses on how I created a text-based game where you have to go around the house and collect all six inventory items from each room before encountering the witch. If you get all six items then go to the room with the witch in it you win, but if you get to the room with the witch in it before you have all six items, she wins!
