@@ -28,12 +28,17 @@ This project is a text-based game I created using Python. The wicked witch broke
 
 ### Display the welcome_instruction function
 
+
   welcome_instructions()
 
 
+
 ### Create new main function which holds entire game
+
   
   def main():
+
+
   
 ### A dictionary for the simplified wicked witch text game
 ### The dictionary links a room to other rooms with
