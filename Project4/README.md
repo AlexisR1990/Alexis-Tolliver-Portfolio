@@ -115,7 +115,7 @@ This project is a text-based game I created using Python. The wicked witch broke
 
 ### Call main function to start game
 
-  main()
+        main()
 
 
 
