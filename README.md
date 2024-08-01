@@ -5,7 +5,7 @@
 > 
 >
 >> ##### Garrison, New York
->>> ###### [LinkedIn](https://www.linkedin.com/in/alexis-tolliver-8b7bb2233/)
+>>> ###### [LinkedIn](http://www.linkedin.com/in/alexis-tolliver-8b7bb2233/)
 
 
 # About me
