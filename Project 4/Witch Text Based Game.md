@@ -6,6 +6,8 @@
 #### corresponding directions and items.
 
 
+
+
 def welcome_instructions():
     print('Welcome to the Wicked Witch game!')
     print('You are home with your family when the Wicked Witch breaks in! To defeat the witch '
@@ -14,10 +16,7 @@ def welcome_instructions():
     print('Command_list: Go North, Go East, Go South, Go West, Get item')
     print('Inventory List: []')
 
-
 welcome_instructions()
-
-
 
 def main():
 
