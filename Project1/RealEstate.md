@@ -178,6 +178,13 @@ This is where I created a reduced model of Model #2.
 # Conclusion
 Overall, it is safe to say that all three models are significant and would be good models to use.The crime rate, living area size, upper-level living area size, type of view, number of bathrooms, school ratings, and even age all seem to have an influence on the pricing of home. So real estate companies could certainly use these models to speed up the time it takes to sell a house by predicting the right price to list for a house based on specific attributes of the house.
 
+References
+
+Lowe-MacAuley, K. (n.d.). House and Keys. 10 Companies That Hire for Remote Real Estate Jobs. Retrieved August 1, 2024, from https://www.flexjobs.com/blog/post/10-companies-that-hire-for-remote-real-estate-jobs/. 
+
+
+
 >>
 >> [Back to home page](https://alexisr1990.github.io/Alexis-Tolliver-Portfolio/)
 >>
+
