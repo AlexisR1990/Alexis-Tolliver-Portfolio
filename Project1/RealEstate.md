@@ -161,7 +161,7 @@ Lastly, let’s talk about predictions for this model.
 
 
 # Nested Models F-Test
-This is where I created a reduced model and compared it with the complete second model (Model #2).
+This is where I created a reduced model of Model #2.
 
 <img width="707" alt="Screenshot 2024-08-01 at 1 57 21 PM" src="https://github.com/user-attachments/assets/db2995ba-c02a-48f9-8af5-685c5d4802f4">
 
@@ -176,7 +176,7 @@ This is where I created a reduced model and compared it with the complete second
 > Since school rating, crime, and the intercept school rating:crime all have p-values of <2e-16 we can conclude that they are all significant at a 5% level of significance.
 
 # Conclusion
-Overall, it is safe to say that all three models are significant at a 5% level of significance and would be good models to use. Model #1 showed us that the living area of a house certainly has an impact on the price of a house. The more spacious of a living area the house has, the pricier the house is yet when it comes to the age of the house it shows a more negative weak correlation making it not a great way to predict prices. 
+Overall, it is safe to say that all three models are significant and would be good models to use.The crime rate, living area size, upper-level living area size, type of view, number of bathrooms, school ratings, and even age all seem to have an influence on the pricing of home. So real estate companies could certainly use these models to speed up the time it takes to sell a house by predicting the right price to list for a house based on specific attributes of the house.
 
 >>
 >> [Back to home page](https://alexisr1990.github.io/Alexis-Tolliver-Portfolio/)
