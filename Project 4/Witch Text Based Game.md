@@ -1,4 +1,4 @@
-
+# Witch Text Based Game
 
     # Define new function which includes a greeting, instructions, command list, and inventory list
     def welcome_instructions():
