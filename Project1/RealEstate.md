@@ -17,7 +17,7 @@ First I had to prepare my data set by reading the csv file and converted the var
 <img width="733" alt="Screenshot 2024-08-01 at 8 20 09 AM" src="https://github.com/user-attachments/assets/2f51b232-a5b0-415b-b5d7-5262dcadd147">
 
 # Model #1
-Started with our first model, I used a multiple regression model with quantitative and qualitative variables. Specifically I wanted to use price for the response variable and sqft_living, sqft_above, age, bathrooms, and view as the predictor variables for this model.
+Starting with our first model, I used a first order regression model with quantitative and qualitative variables. Specifically I wanted to use price for the response variable and sqft_living, sqft_above, age, bathrooms, and view as the predictor variables for this model.
 
 > First I created a scatterplot of living area of the house against price of the house then I created a scatterplot of age of the house against price of the house to see if there was any correlations.
 
@@ -35,7 +35,7 @@ Started with our first model, I used a multiple regression model with quantitati
 
 <img width="699" alt="Screenshot 2024-08-01 at 9 39 25 AM" src="https://github.com/user-attachments/assets/f04080d1-6370-423c-944c-c91c2fde30e5">
 
-> Now we are ready to create a multiple regression model. Usig price as the response variable with sqft_living, sqft_above, age, bathrooms, and view as predictor variables. 
+> Now we are ready to create a first order regression model. Usig price as the response variable with sqft_living, sqft_above, age, bathrooms, and view as predictor variables. 
 
 <img width="703" alt="Screenshot 2024-08-01 at 9 44 17 AM" src="https://github.com/user-attachments/assets/b82b0721-65bd-4628-ad9e-740c0ee8ae14">
 
@@ -43,8 +43,6 @@ Started with our first model, I used a multiple regression model with quantitati
 
 > Using the results above I was able to create a multiple regression model equation.
 > <img width="581" alt="Screenshot 2024-08-01 at 10 11 06 AM" src="https://github.com/user-attachments/assets/57162f32-7e51-47df-bf14-54dee619ae83">
-
-> The results show there is a 60% variance of the price being explained by the living area, upper living area, age, bathrooms, and views of the house. We can also surmise that the price of the house increases by 1 unit for every 1.293e+02 units of living area and increases by 1 unit for every 2.490e+05 units of lake view.
 
 > An F-test was also performed to evaluate the significance of the model.
 <img width="570" alt="Screenshot 2024-08-01 at 10 25 08 AM" src="https://github.com/user-attachments/assets/839331a3-c9be-439b-a1f0-23e58115b3f9">
@@ -95,6 +93,45 @@ Confidence interval results above show that we can say with 90% confidence that 
 
 
 # Model #2
+For the second model, I created a complete second order regression model with quantitative variables. Specifically I used price for the response variable, and school rating and crime as the preditor variables.
+
+> First I created a scatterplot of school ratings against price and another scatterplot of crime rate against price.
+
+<img width="731" alt="Screenshot 2024-08-01 at 11 21 08 AM" src="https://github.com/user-attachments/assets/67cdaf54-ee00-42c5-ae83-f4a691c4b24a">
+
+> As you can see from the scatterplot below, there is a non-linear relationship between school rating and price of a house with a positive trend, which means that as the school rating increases, the price of the house increases as well. Due to the non-linear relationship, it is safe to say that using a second order model is appropriate for these variables.
+
+<img width="685" alt="Screenshot 2024-08-01 at 11 21 21 AM" src="https://github.com/user-attachments/assets/86005078-dd80-4433-9629-ba6d50c44d75">
+
+> Yet as you can see from the scatterplot below, there is a non-linear relationship between the crime rate per 100,000 people and price of a house with a negative trend, which means that as the crime rate increases the price of the house decreases. Due to the non-linear relationship, it is safe to say that using a second order model is approprriate for these variables as well.
+
+> Next I created a subset to create a second order model using price, school rating, and crime. 
+
+<img width="733" alt="Screenshot 2024-08-01 at 11 51 47 AM" src="https://github.com/user-attachments/assets/fab23d00-5e75-4b29-a07a-f8a53a871e3d">
+
+> Using the results above I was able to create a second order regression model equation.
+<img width="580" alt="Screenshot 2024-08-01 at 11 53 02 AM" src="https://github.com/user-attachments/assets/14a460f9-038c-43bf-80d1-8697ffaae498">
+
+> An F-test was performed to evaluate the significance of the model
+<img width="544" alt="Screenshot 2024-08-01 at 11 57 33 AM" src="https://github.com/user-attachments/assets/f2cad90d-2a9c-43a0-a322-4c7f35618a48">
+
+> Since the p-value is <2.2e-16 we can reject the null hypothesis and accept the alternative hypothese meaning that at least one variable is significant at a 5% level of significance.
+
+> To find out which variable is significant we must do individual beta tests.
+<img width="554" alt="Screenshot 2024-08-01 at 10 28 26 AM" src="https://github.com/user-attachments/assets/f6f60a78-d177-4666-9f3e-d1f57a259f15">
+
+> According to the indivual beta tests we can confidently say we must accept the null hypothesis for sqft_living concluding that it is not significant at a 5% level of significant due to its p-value.
+
+> Yet we must reject the null hypothesis and accept the alternative hypothesis for all other variables, sqft_above, age, bathrooms, view1, and view2 and conclude that they are all signficant at a 5% level of significane due to its p-value.
+
+
+
+
+
+
+
+
+
 
 
 
