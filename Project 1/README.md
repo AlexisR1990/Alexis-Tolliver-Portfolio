@@ -1,7 +1,7 @@
 # Real Estate Housing Analysis
 > By Alexis Tolliver
 
-# Variables Used
+## Variables Used
 |Variable       |What does it represent?                                                                        |
 |--------------:|-----------------------------------------------------------------------------------------------|
 |price          |Sale price of the home                                                                         |
