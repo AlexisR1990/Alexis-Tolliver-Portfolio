@@ -1,4 +1,5 @@
 # Alexis Tolliver's Portfolio
+<div id="header" align="center">
 ##### <img width="200" alt="Screenshot 2024-07-31 at 9 31 38 PM" src="https://github.com/user-attachments/assets/2aca681b-f275-4c67-b673-951efdd7a442">
 >
 > ### Data Analyst
@@ -19,9 +20,6 @@ This pivotal moment confirmed that data analytics was my true calling. Since the
 I have proficiency in several tools, including Python, R Programming, SQL, Excel, and Tableau. As a natural investigator and lifelong learner, I am continually upskilling and expanding my knowledge to stay at the forefront of data analytics.
 
 <br>
-
-<div id="header" align="center">
-  <img scr="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExMmJncjFjNnlucGdvZmJrY3dtbzRkNmgyaHdhYzl4bTV4czM5YjAyYSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/fYwwJG7ftffzzCm3mW/giphy.gif" width="100"/>
 
 # Projects
 
