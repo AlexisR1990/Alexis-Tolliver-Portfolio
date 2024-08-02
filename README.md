@@ -1,17 +1,14 @@
 # Alexis Tolliver's Portfolio
-<div id="header" align="center">
+<div id="header" align="right">
   
 ##### <img width="200" alt="Screenshot 2024-07-31 at 9 31 38 PM" src="https://github.com/user-attachments/assets/2aca681b-f275-4c67-b673-951efdd7a442">
->
-> ### Data Analyst
-> 
->
->> ##### Garrison, New York
->>> ###### [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/alexis-tolliver-8b7bb2233)
+### Data Analyst
+##### Garrison, New York
+###### [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/alexis-tolliver-8b7bb2233)
 
 <br>
 
-
+<div id="header" align="left">
 # About me
 
 During my young adulthood, I worked in childcare until I discovered the Google Data Analytics Certification. This certification marked the beginning of a beautiful journey and ignited my fascination with data. After completing my Google certification, I pursued the Data Analytics Certification through Break Into Data. However, I wanted to delve deeper, so I decided to return to school for a bachelor's degree in Data Analytics with a concentration in Project Management for STEM.
