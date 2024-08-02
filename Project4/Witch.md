@@ -117,8 +117,11 @@ This project is a text-based game I created using Python. The wicked witch broke
 
         main()
 
+<br>
 
-> ###### [Back to home page](https://alexisr1990.github.io/Alexis-Tolliver-Portfolio/)
+>  ###### [Back to home page](https://alexisr1990.github.io/Alexis-Tolliver-Portfolio/)
+
+<br>
 
 ##### Resources
 Sharpe, G. (2016). Witch. The real and bloody history behind the witches of Halloween. THINKSTOCK. Retrieved July 31, 2024, from https://www.bbc.com/news/uk-scotland-37822022. 
