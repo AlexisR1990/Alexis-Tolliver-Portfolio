@@ -18,7 +18,6 @@ I have proficiency in several tools, including Python, R Programming, SQL, Excel
 
 <br>
 
-![Code Computer](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExMmJncjFjNnlucGdvZmJrY3dtbzRkNmgyaHdhYzl4bTV4czM5YjAyYSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/fYwwJG7ftffzzCm3mW/giphy.gif)
 
 # Projects
 
@@ -43,4 +42,8 @@ I have proficiency in several tools, including Python, R Programming, SQL, Excel
 <br>
 Thank you for checking out my portfolio. Feel free to reach out for any questions or concerns.
 
-<img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExenpsbWp2bzY0bXNlbnF2ZTF3ZGkwc25tanZ1b2czMHMyNjcwYjdleCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/2aIRxJ8YitX04Am4kO/giphy.gif" alt="drawing" width="100"/>
+<p float="left">
+  <img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExenpsbWp2bzY0bXNlbnF2ZTF3ZGkwc25tanZ1b2czMHMyNjcwYjdleCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/2aIRxJ8YitX04Am4kO/giphy.gif" alt="drawing" width="100"/>
+  <img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExeG1ycGRwODU0cjNoaHhldDJwaGN6aXNzbnRkMHIzODlxNXhkMmN6eiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/QuDgW7dXQfCZiWVXD4/giphy.gif" alt="drawing" width="100"/>
+  <img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHNmcHNqNXJkNDBwYWMwb2dlYzJsbG9yNGowY3huOG9rYWIwZHBscSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/SUcApSWjPwQMARvcM8/giphy.gif" alt="drawing" width="100"/>
+</p>
