@@ -25,15 +25,15 @@ I have proficiency in several tools, including Python, R Programming, SQL, Excel
 > ### Project 1: [Real Estate Housing Analysis](Project1/RealEstate.md)
 > This project involves using a real estate company's historical data set to analyze various relationships between different attributes of a house and its selling price. For this analysis, I employed a first order regression model incorporating both quantitative and qualitative variables, a complete second order regression model with quantitative variables, and a nested model F-test. These regression models allowed me to predict home sale prices based on different variable factors. The insights gained from this analysis can help the real estate company set more accurate prices for houses, ensuring quicker sales for clients.
 >
-> 
+
 > ### Project 2
 > > Updating in progress..
 >
-> 
+
 > ### Project 3
 > > Updating in progress..
 >
-> 
+
 > ### Project 4: [Witch Text Based Game](Project4/Witch.md)
 > > This project is one of the first ones I worked on. It involves creating a text-based game where the player navigates through a house, collecting six inventory items from different rooms before encountering the witch. The objective is to gather all six items and then go to the room with the witch to win the game. If the player encounters the witch before collecting all six items, the witch wins!
 <br>
