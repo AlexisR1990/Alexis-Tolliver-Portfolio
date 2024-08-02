@@ -20,6 +20,9 @@ I have proficiency in several tools, including Python, R Programming, SQL, Excel
 
 <br>
 
+<div id="header" align="center">
+  <img scr="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExMmJncjFjNnlucGdvZmJrY3dtbzRkNmgyaHdhYzl4bTV4czM5YjAyYSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/fYwwJG7ftffzzCm3mW/giphy.gif" width="100"/>
+
 # Projects
 
 > ### Project 1: [Real Estate Housing Analysis](Project1/RealEstate.md)
