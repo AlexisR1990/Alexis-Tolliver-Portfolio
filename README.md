@@ -53,9 +53,9 @@ Thank you for checking out my portfolio. Feel free to reach out for any question
 <br>
 <br>
 <br>
-<p>  <img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExenpsbWp2bzY0bXNlbnF2ZTF3ZGkwc25tanZ1b2czMHMyNjcwYjdleCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/2aIRxJ8YitX04Am4kO/giphy.gif" alt="drawing" width="140"/>
-  <img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExeG1ycGRwODU0cjNoaHhldDJwaGN6aXNzbnRkMHIzODlxNXhkMmN6eiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/QuDgW7dXQfCZiWVXD4/giphy.gif" alt="drawing" width="140"/>
-  <img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExMGtldnludHM5ZHFiYWt3NHBwcHNubndnOHE3MTR4eGVpdXUydDh2MiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/k0ijJhqrUP4T2EvmJ1/giphy.gif" alt="drawing" width="140"/>
-  <img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExczlvM2tuOW44dXh1Z3dtMTd1am5kZ2l2aDJnMWdzcGZ6OTFkcHd3eCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/T1OtT3rmtNRTn3xLxB/giphy.gif" width="140"/>
-  <img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExM2NrNzJ2bDdpd3l1NjE1cWU0dmYzdGUzaHl3emFmbGs2M2gzb3o1eSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l46Cy1rHbQ92uuLXa/giphy.gif" width="140"/>
+<p>  <img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExenpsbWp2bzY0bXNlbnF2ZTF3ZGkwc25tanZ1b2czMHMyNjcwYjdleCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/2aIRxJ8YitX04Am4kO/giphy.gif" alt="drawing" width="130"/>
+  <img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExeG1ycGRwODU0cjNoaHhldDJwaGN6aXNzbnRkMHIzODlxNXhkMmN6eiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/QuDgW7dXQfCZiWVXD4/giphy.gif" alt="drawing" width="130"/>
+  <img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExMGtldnludHM5ZHFiYWt3NHBwcHNubndnOHE3MTR4eGVpdXUydDh2MiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/k0ijJhqrUP4T2EvmJ1/giphy.gif" alt="drawing" width="130"/>
+  <img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExczlvM2tuOW44dXh1Z3dtMTd1am5kZ2l2aDJnMWdzcGZ6OTFkcHd3eCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/T1OtT3rmtNRTn3xLxB/giphy.gif" width="130"/>
+  <img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExM2NrNzJ2bDdpd3l1NjE1cWU0dmYzdGUzaHl3emFmbGs2M2gzb3o1eSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l46Cy1rHbQ92uuLXa/giphy.gif" width="130"/>
 </p>
