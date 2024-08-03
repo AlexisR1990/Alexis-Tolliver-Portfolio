@@ -1,2 +1,58 @@
-theme: jekyll-theme-moon
+# theme: jekyll-theme-moon
 
+# Site
+title: Moonrise
+bio: "Minimal, one column jekyll theme."
+description: "Moonrise is a fresh take on the classic Moon"
+reading_time: true
+words_per_minute: 200
+logo: "assets/img/logo.png"
+background: "assets/img/moonrise-background.jpg"
+tiled_bg: false # Set this true if you want to tile your background image, otherwise it will be covered
+locale: en_US
+url: https://TolgaTatli.github.io/Moonrise
+
+# Jekyll
+permalink: /:title/
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  enable_coderay: false
+mathjax: true
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Plugins
+plugins:
+  - jekyll-mentions
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-seo-tag
+  - jekyll-paginate
+  - jekyll-include-cache
+
+jekyll-mentions:
+  base_url: https://github.com
+
+# Exclude list
+exclude:
+  [
+    README.md,
+    Gemfile,
+    Gemfile.lock,
+    node_modules,
+    gulpfile.js,
+    package.json,
+    _site,
+    src,
+    vendor,
+    CNAME,
+    LICENSE,
+    Rakefile,
+  ]
