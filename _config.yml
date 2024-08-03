@@ -4,3 +4,10 @@ titles_from_headings:
   enabled:     true
   strip_title: false
   collections: false
+
+defaults:
+  - scope:
+      path: some-path
+      layout: some_layout
+    values:
+      strip_title: true
