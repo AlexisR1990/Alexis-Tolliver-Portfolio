@@ -1,5 +1,3 @@
-# Alexis Tolliver's Portfolio
-
 ##### <img width="200" alt="Screenshot 2024-07-31 at 9 31 38 PM" src="https://github.com/user-attachments/assets/2aca681b-f275-4c67-b673-951efdd7a442">
 > ### Data Analyst
 >> ##### Garrison, New York
