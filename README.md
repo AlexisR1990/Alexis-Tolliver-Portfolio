@@ -42,6 +42,10 @@ I have proficiency in several tools, including Python, R Programming, SQL, Excel
 <br>
 <br>
 Thank you for checking out my portfolio. Feel free to reach out for any questions or concerns.
+<br>
+<br>
+<br>
+<br>
 
 <div><p align="center"
   <img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExenpsbWp2bzY0bXNlbnF2ZTF3ZGkwc25tanZ1b2czMHMyNjcwYjdleCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/2aIRxJ8YitX04Am4kO/giphy.gif" alt="drawing" width="150"/>
