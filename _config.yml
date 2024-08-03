@@ -5,3 +5,8 @@ plugins:
 
  title: Alexis Tolliver
   description: Data Analyst
+
+titles_from_headings:
+  enabled:     true
+  strip_title: false
+  collections: false
