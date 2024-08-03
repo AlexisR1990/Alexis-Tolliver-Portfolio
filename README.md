@@ -47,4 +47,5 @@ Thank you for checking out my portfolio. Feel free to reach out for any question
   <img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExenpsbWp2bzY0bXNlbnF2ZTF3ZGkwc25tanZ1b2czMHMyNjcwYjdleCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/2aIRxJ8YitX04Am4kO/giphy.gif" alt="drawing" width="150"/>
   <img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExeG1ycGRwODU0cjNoaHhldDJwaGN6aXNzbnRkMHIzODlxNXhkMmN6eiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/QuDgW7dXQfCZiWVXD4/giphy.gif" alt="drawing" width="150"/>
   <img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExMGtldnludHM5ZHFiYWt3NHBwcHNubndnOHE3MTR4eGVpdXUydDh2MiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/k0ijJhqrUP4T2EvmJ1/giphy.gif" alt="drawing" width="150"/>
+  <img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExbTE0ZGJ2dXR1amMzdzgxNWU4dnYzbGQxY3ZsdDNqNDdua2U2eHM1aiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/9PhdJO4CMfyfXDCnko/giphy.gif" alt="drawing" width="150"/>
 </p>
