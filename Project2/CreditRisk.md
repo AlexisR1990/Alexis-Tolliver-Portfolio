@@ -12,7 +12,6 @@ In this project, I acted as a risk analyst who works for a credit card company. 
 
 
 
-
 ### Variables Used
 <img width="660" alt="Screenshot 2024-08-03 at 11 23 15 AM" src="https://github.com/user-attachments/assets/bad1841f-d74f-4e2b-93d6-4da42e590a3e">
 
