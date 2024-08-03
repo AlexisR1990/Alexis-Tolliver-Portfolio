@@ -1,12 +1,5 @@
 theme: jekyll-theme-midnight
 
-plugins:
-  - jekyll-titles-from-headings
 
  title: Alexis Tolliver
   description: Data Analyst
-
-titles_from_headings:
-  enabled:     true
-  strip_title: false
-  collections: false
