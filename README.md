@@ -8,7 +8,7 @@
 
 # About me
 
-During my young adulthood, I worked in childcare until I discovered the Google Data Analytics Certification. This certification marked the beginning of a beautiful journey and ignited my fascination with data. After completing my Google certification, I pursued the Data Analytics Certification through Break Into Data. However, I wanted to delve deeper, so I decided to return to school for a bachelor's degree in Data Analytics with a concentration in Project Management for STEM.
+Early in my professional career I worked in childcare until I discovered the Google Data Analytics Certification. This certification marked the beginning of a beautiful journey and ignited my fascination with data. After completing my Google certification, I pursued the Data Analytics Certification through Break Into Data. However, I wanted to delve deeper, so I decided to return to school for a bachelor's degree in Data Analytics with a concentration in Project Management for STEM.
 
 This pivotal moment confirmed that data analytics was my true calling. Since then, I have become fully immersed in the field, learning how to clean and preprocess data, conduct exploratory data analysis, and perform various statistical analyses to uncover trends and critical insights. Additionally, I have gained expertise in creating dashboards and writing reports to communicate my findings effectively to key stakeholders.
 
