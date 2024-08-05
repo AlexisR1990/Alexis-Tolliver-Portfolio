@@ -42,7 +42,8 @@ As a natural investigator and lifelong learner, I am continually upskilling and 
 <br>
 <br>
 <br>
-Thank you for checking out my portfolio.
+
+#### Thank you for taking the time to check out my portfolio.
 <br>
 <br>
 <br>
