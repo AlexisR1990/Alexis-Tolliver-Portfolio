@@ -53,8 +53,8 @@ Thank you for checking out my portfolio. Feel free to reach out for any question
 <br>
 <br>
 <br>
-<p align="center"> <img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExenpsbWp2bzY0bXNlbnF2ZTF3ZGkwc25tanZ1b2czMHMyNjcwYjdleCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/2aIRxJ8YitX04Am4kO/giphy.gif" alt="drawing" width="130"/>
-  <img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExeG1ycGRwODU0cjNoaHhldDJwaGN6aXNzbnRkMHIzODlxNXhkMmN6eiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/QuDgW7dXQfCZiWVXD4/giphy.gif" alt="drawing" width="130"/>
-  <img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExczlvM2tuOW44dXh1Z3dtMTd1am5kZ2l2aDJnMWdzcGZ6OTFkcHd3eCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/T1OtT3rmtNRTn3xLxB/giphy.gif" width="130"/>
-  <img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExdW5kcDdzbWwxaWZpcno0dHk5dGg5NHdjbXAzYmJtaWV0Y2hueXN0bCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/S8TzUKzRPjepzJx37U/giphy.gif" width="130"/>
+<p align="center"> <img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExenpsbWp2bzY0bXNlbnF2ZTF3ZGkwc25tanZ1b2czMHMyNjcwYjdleCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/2aIRxJ8YitX04Am4kO/giphy.gif" alt="drawing" width="100"/>
+  <img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExeG1ycGRwODU0cjNoaHhldDJwaGN6aXNzbnRkMHIzODlxNXhkMmN6eiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/QuDgW7dXQfCZiWVXD4/giphy.gif" alt="drawing" width="100"/>
+  <img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExczlvM2tuOW44dXh1Z3dtMTd1am5kZ2l2aDJnMWdzcGZ6OTFkcHd3eCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/T1OtT3rmtNRTn3xLxB/giphy.gif" width="100"/>
+  <img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExdW5kcDdzbWwxaWZpcno0dHk5dGg5NHdjbXAzYmJtaWV0Y2hueXN0bCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/S8TzUKzRPjepzJx37U/giphy.gif" width="100"/>
 </p>
