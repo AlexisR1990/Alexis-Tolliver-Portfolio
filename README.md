@@ -20,22 +20,23 @@ As a natural investigator and lifelong learner, I am continually upskilling and 
 <br>
 <br>
 # Projects
-
-> ### Project 1: [Real Estate Housing Analysis](Project1/RealEstate.md)
-> This project involves using a real estate company's historical data set to analyze various relationships between different attributes of a house and its selling price. For this analysis, I employed a first order regression model incorporating both quantitative and qualitative variables, a complete second order regression model with quantitative variables, and a nested model F-test. These regression models allowed me to predict home sale prices based on different variable factors. The insights gained from this analysis can help the real estate company set more accurate prices for houses, ensuring quicker sales for clients.
+> ## R Programming
+>> ### [Real Estate Housing Analysis](Project1/RealEstate.md)
+>> This project involves using a real estate company's historical data set to analyze various relationships between different attributes of a house and its selling price. For this analysis, I employed a first order regression model incorporating both quantitative and qualitative variables, a complete second order regression model with quantitative variables, and a nested model F-test. These regression models allowed me to predict home sale prices based on different variable factors. The insights gained from this analysis can help the real estate company set more accurate prices for houses, ensuring quicker sales for clients.
+>>
+>>
+>> ### [Credit Risk Analysis](Project2/CreditRisk.md)
+>> In this project, I acted as a risk analyst who works for a credit card company. The company tasked me with studying the relationships between customer characteristics and the likelihood of defaulting on their credit using their historical data set. I used R programming to construct a classification decision tree to conduct this risk analysis. Next, I plotted cross-validation errors against cost-complexity, pruned the tree, and plotted the classification decision tree. Then I obtained the confusion matrix to calculate the accuracy, precision, and recall, and made predictions using the classification decision tree. This analysis will enable the company to estimate the risk of customers defaulting based on specific customer characteristics.
+>>
+>>
+>> ### Heart Disease Risk Analysis
+>> Updating in progress..
 >
->
-> ### Project 2: [Credit Risk Analysis](Project2/CreditRisk.md)
-> In this project, I acted as a risk analyst who works for a credit card company. The company tasked me with studying the relationships between customer characteristics and the likelihood of defaulting on their credit using their historical data set. I used R programming to construct a classification decision tree to conduct this risk analysis. Next, I plotted cross-validation errors against cost-complexity, pruned the tree, and plotted the classification decision tree. Then I obtained the confusion matrix to calculate the accuracy, precision, and recall, and made predictions using the classification decision tree. This analysis will enable the company to estimate the risk of customers defaulting based on specific customer characteristics.
->
->
-> ### Project 3: Heart Disease Risk Analysis
-> Updating in progress..
->
->
-> ### Project 4: [Witch Text Based Game](Project4/Witch.md)
-> This project is one of the first ones I worked on. It involves creating a text-based game where the player navigates through a house, collecting six inventory items from different rooms before encountering the witch. The objective is to gather all six items and then go to the room with the witch to win the game. If the player encounters the witch before collecting all six items, the witch wins!
->
+>>
+> ## Python
+>> ### [Witch Text Based Game](Project4/Witch.md)
+>> This project is one of the first ones I worked on. It involves creating a text-based game where the player navigates through a house, collecting six inventory items from different rooms before encountering the witch. The objective is to gather all six items and then go to the room with the witch to win the game. If the player encounters the witch before collecting all six items, the witch wins!
+>>
 <br>
 <br>
 <br>
