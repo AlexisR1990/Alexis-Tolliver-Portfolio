@@ -7,7 +7,7 @@
 
 
 ## Summary
-In this project, I acted as a risk analyst who works for a credit card company. The company tasked me with studying the relationships between customer characteristics and the likelihood of defaulting on their credit using their historical data set. This analysis will enable the company to estimate the risk of customers defaulting based on specific customer characteristics. The customer characteristc variables we used are show in the table below.  
+In this project, I acted as a risk analyst who works for a credit card company. The company tasked me with studying the relationships between customer characteristics and the likelihood of defaulting on their credit using the company's historical data set. This analysis will enable the company to estimate the risk of customers defaulting based on specific customer characteristics. The customer characteristc variables we used are show in the table below.  
 
 
 ### Variables Used
