@@ -22,7 +22,6 @@ As a natural investigator and lifelong learner, I am continually upskilling and 
 # Projects
 
 <br>
-<br>
 
 > ## R Programming
 >> ### [Real Estate Housing Analysis](Project1/RealEstate.md)
