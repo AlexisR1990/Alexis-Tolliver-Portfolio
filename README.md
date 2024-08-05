@@ -13,7 +13,7 @@ Early in my professional career I worked in childcare until I discovered the Goo
 
 This pivotal moment confirmed that data analytics was my true calling. Since then, I have become fully immersed in the field, gaining proficiency in several tools, including Python, R Programming, SQL, Excel, and Tableau. Learning how to clean and preprocess data, conduct exploratory data analysis, and perform various statistical analyses to uncover trends and critical insights. Gaining expertise in creating dashboards and writing reports to communicate my findings effectively to key stakeholders.
 
-As a natural investigator and lifelong learner, I am continually upskilling and expanding my knowledge to stay at the forefront of data analytics, which in additon to my skills and passion would make me a great asset to any organization. Please feel free to reach out for any questions or concerns.
+As a natural investigator and lifelong learner, I am continually upskilling and expanding my knowledge to stay at the forefront of data analytics, which in additon to my skills and passion would make me a great asset to any organization. Please feel free to reach out with any questions.
 <br>
 <br>
 <br>
