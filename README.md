@@ -41,6 +41,8 @@ As a natural investigator and lifelong learner, I am continually upskilling and 
 ## Python
 > ### [Witch Text Based Game](Project4/Witch.md)
 > This project is one of the first ones I worked on at SNHU. It involves creating a text-based game where the player navigates through a house, collecting six inventory items from different rooms before encountering the witch. The objective is to gather all six items and then go to the room with the witch to win the game. If the player encounters the witch before collecting all six items, the witch wins!
+
+
 <br>
 <br>
 <br>
