@@ -156,5 +156,5 @@ The root mean squared error for this testing set is 20.950238440533.
 <br>
 <br>
 
-#### References
-##### Miller, PhD., N. (2023). Heart in skeleton. 8 Different Types of Heart Disease. Retrieved August 5, 2024, from https://www.everlywell.com/blog/heart-health/types-of-heart-disease/.
+## References
+#### Miller, PhD., N. (2023). Heart in skeleton. 8 Different Types of Heart Disease. Retrieved August 5, 2024, from https://www.everlywell.com/blog/heart-health/types-of-heart-disease/.
