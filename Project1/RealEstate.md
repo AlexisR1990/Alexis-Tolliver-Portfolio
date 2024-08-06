@@ -182,7 +182,9 @@ Overall, it is safe to say that all three models are significant and would be go
 <br>
 <br>
 <br>
+
 >> [Back to home page](https://alexisr1990.github.io/Alexis-Tolliver-Portfolio/)
+
 <br>
 <br>
 
