@@ -24,23 +24,23 @@ As a natural investigator and lifelong learner, I am continually upskilling and 
 <br>
 
 ## R Programming
->> ### [Real Estate Housing Analysis](Project1/RealEstate.md)
->> During my time at SNHU I was asked to act as a data analyst and to use a real estate company's historical data set to analyze various relationships between different attributes of a house and its selling price. For this analysis, I created a first-order regression model incorporating both quantitative and qualitative variables, a complete second-order regression model with quantitative variables, and a nested model F-test. These regression models allowed me to predict home sale prices based on different variable factors. The insights gained from this analysis can help the real estate company set more accurate prices for houses, ensuring quicker sales for clients.
->>
->>
->> ### [Credit Risk Analysis](Project2/CreditRisk.md)
->> During my time at SNHU I was asked to act as a risk analyst who works for a credit card company. The company tasked me with studying the relationships between customer characteristics and the likelihood of defaulting on their credit using their historical data set. I was then asked to construct a classification decision tree, plot cross-validation errors against cost-complexity, prune the tree and plot the classification decision tree. Then I obtained the confusion matrix to calculate the accuracy, precision, and recall, and made predictions using the tree. This analysis will allow the company to estimate the risk of customers defaulting on their credit based on specific customer characteristics.
->>
->>
->> ### [Heart Disease Risk Analysis](Project3/HeartDisease.md)
->> During my time at SNHU I was asked to act as a data analyst and research risk factors for heart disease at a university hospital. Using a large set of historical data, I was asked to analyze patterns between the presence of heart disease in a patient and different health indicators. Throughout this project, I was asked to create two logistic regression models with one utilizing a quadratic term as well as an interactive term. I was then asked to create a ROC Curve and obtain the AUC value as well as use predictive analysis to make predictions and create a random forest classification model as well as a random forest regression model. This analysis can help doctors and patients be able to predict the possibility of a patient's risk of developing heart disease.
+> ### [Real Estate Housing Analysis](Project1/RealEstate.md)
+> During my time at SNHU I was asked to act as a data analyst and to use a real estate company's historical data set to analyze various relationships between different attributes of a house and its selling price. For this analysis, I created a first-order regression model incorporating both quantitative and qualitative variables, a complete second-order regression model with quantitative variables, and a nested model F-test. These regression models allowed me to predict home sale prices based on different variable factors. The insights gained from this analysis can help the real estate company set more accurate prices for houses, ensuring quicker sales for clients.
+>
+>
+> ### [Credit Risk Analysis](Project2/CreditRisk.md)
+> During my time at SNHU I was asked to act as a risk analyst who works for a credit card company. The company tasked me with studying the relationships between customer characteristics and the likelihood of defaulting on their credit using their historical data set. I was then asked to construct a classification decision tree, plot cross-validation errors against cost-complexity, prune the tree and plot the classification decision tree. Then I obtained the confusion matrix to calculate the accuracy, precision, and recall, and made predictions using the tree. This analysis will allow the company to estimate the risk of customers defaulting on their credit based on specific customer characteristics.
+>
+>
+> ### [Heart Disease Risk Analysis](Project3/HeartDisease.md)
+> During my time at SNHU I was asked to act as a data analyst and research risk factors for heart disease at a university hospital. Using a large set of historical data, I was asked to analyze patterns between the presence of heart disease in a patient and different health indicators. Throughout this project, I was asked to create two logistic regression models with one utilizing a quadratic term as well as an interactive term. I was then asked to create a ROC Curve and obtain the AUC value as well as use predictive analysis to make predictions and create a random forest classification model as well as a random forest regression model. This analysis can help doctors and patients be able to predict the possibility of a patient's risk of developing heart disease.
 
 <br>
 <br>
 
 ## Python
->> ### [Witch Text Based Game](Project4/Witch.md)
->> This project is one of the first ones I worked on. It involves creating a text-based game where the player navigates through a house, collecting six inventory items from different rooms before encountering the witch. The objective is to gather all six items and then go to the room with the witch to win the game. If the player encounters the witch before collecting all six items, the witch wins!
+> ### [Witch Text Based Game](Project4/Witch.md)
+> This project is one of the first ones I worked on. It involves creating a text-based game where the player navigates through a house, collecting six inventory items from different rooms before encountering the witch. The objective is to gather all six items and then go to the room with the witch to win the game. If the player encounters the witch before collecting all six items, the witch wins!
 <br>
 <br>
 <br>
