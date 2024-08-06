@@ -32,8 +32,8 @@ As a natural investigator and lifelong learner, I am continually upskilling and 
 >> In this project, I acted as a risk analyst who works for a credit card company. The company tasked me with studying the relationships between customer characteristics and the likelihood of defaulting on their credit using their historical data set. I used R programming to construct a classification decision tree to conduct this risk analysis. Next, I plotted cross-validation errors against cost-complexity, pruned the tree, and plotted the classification decision tree. Then I obtained the confusion matrix to calculate the accuracy, precision, and recall, and made predictions using the classification decision tree. This analysis will enable the company to estimate the risk of customers defaulting based on specific customer characteristics.
 >>
 >>
->> ### Heart Disease Risk Analysis
->> Updating in progress..
+>> ### [Heart Disease Risk Analysis](Project3/HeartDisease.md)
+>> In the project, 
 >>
 >>
 
