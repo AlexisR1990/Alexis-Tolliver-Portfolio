@@ -21,10 +21,18 @@ As a natural investigator and lifelong learner, I am continually upskilling and 
 <br>
 # My Projects
 
+
+## Python
+> ### [Asthma Risk Analysis](Project1/Asthma.md)
+> This project is a personal project of mine where I use EDA and a random forest model to analyze a data set of over 2,000 asthma patients for their risk of being diagnosed with Asthma based on certain factors.
+> ### [Witch Text Based Game](Project4/Witch.md)
+> This project is one of the first ones I worked on at SNHU. It involves creating a text-based game where the player navigates through a house, collecting six inventory items from different rooms before encountering the witch. The objective is to gather all six items and then go to the room with the witch to win the game. If the player encounters the witch before collecting all six items, the witch wins!
+<br>
+<br>
 <br>
 
 ## R Programming
-> ### [Real Estate Housing Analysis](Project1/RealEstate.md)
+> ### [Real Estate Housing Analysis](Project5/RealEstate.md)
 > During my time at SNHU I was asked to act as a data analyst and to use a real estate company's historical data set to analyze various relationships between different attributes of a house and its selling price. For this analysis, I created a first-order regression model incorporating both quantitative and qualitative variables, a complete second-order regression model with quantitative variables, and a nested model F-test. These regression models allowed me to predict home sale prices based on different variable factors. The insights gained from this analysis can help the real estate company set more accurate prices for houses, ensuring quicker sales for clients.
 >
 >
@@ -37,10 +45,6 @@ As a natural investigator and lifelong learner, I am continually upskilling and 
 
 <br>
 <br>
-
-## Python
-> ### [Witch Text Based Game](Project4/Witch.md)
-> This project is one of the first ones I worked on at SNHU. It involves creating a text-based game where the player navigates through a house, collecting six inventory items from different rooms before encountering the witch. The objective is to gather all six items and then go to the room with the witch to win the game. If the player encounters the witch before collecting all six items, the witch wins!
 
 
 <br>
