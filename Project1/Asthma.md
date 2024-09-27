@@ -1,12 +1,11 @@
-# Real Estate Housing Analysis
+# Asthma Analysis
 > By Alexis Tolliver
 > ###### [Back to home page](https://alexisr1990.github.io/Alexis-Tolliver-Portfolio/)
 > 
-![Real Estate](https://github.com/user-attachments/assets/9a3069bc-22d8-4fb7-b898-1a8261012065)
-
 
 ## Summary
-During my time at SNHU I was asked to act as a data analyst and use a real estate company's historical data set to analyze relationships between various attributes of a house and its cost. The goal was to predict sale prices based on these attributes to help the real estate company list their client's homes at optimal prices, which could expedite the selling process. Below are the different attributes of the houses that I used in my analysis. 
+This is a personal project of mine where I analyzed an Asthma data set to view how different health markers, environmental factors, symptoms and more influence a patient's chance of being diagnosed with asthma. Using Python I preprocessed the data, performed EDA, and created a random forest to understand the relationships more deeply. Once my the model was created, I think pulled a decision tree out for further analysis.
+
 
 ### Variables Used
 <img width="875" alt="Screenshot 2024-08-01 at 9 18 53 AM" src="https://github.com/user-attachments/assets/7f21985f-2911-4b6d-9d57-7ce928808551">
