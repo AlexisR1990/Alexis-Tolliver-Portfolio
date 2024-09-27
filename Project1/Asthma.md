@@ -4,7 +4,7 @@
 > 
 
 ## Summary
-This is a personal project of mine where I analyzed an Asthma data set to view how different health markers, environmental factors, symptoms and more influence a patient's chance of being diagnosed with asthma. Using Python I preprocessed the data, performed EDA, and created a random forest to understand the relationships more deeply. Once my the model was created, I think pulled a decision tree out for further analysis.
+This is a personal project of mine where I analyzed an asthma data set of over 2,000 patients, with the intent to view how different health markers, environmental factors, symptoms, and more influence a patient's chance of being diagnosed with asthma. Using Python I preprocessed the data, performed EDA, and created a random forest in order to understand the relationships between the factors more deeply. Once my model was created I obtain various statistics to ensure the model was a good fit for the data and then I pulled a decision tree out for further analysis.
 
 
 ### Variables Used
