@@ -10,6 +10,7 @@ This is a personal project of mine where I analyzed an asthma data set of over 2
 ### Variables Used
 
 
+
 ## Prepare Data Set
 First, I had to import all necessary librries and obtain my data set by reading the CSV file and using .head() to view the first 5 rows of my data set.
 <img width="1124" alt="Screenshot 2024-09-26 at 10 03 06 PM" src="https://github.com/user-attachments/assets/e88191f6-32df-4ae7-9207-6d852c49ac42">
@@ -28,6 +29,10 @@ To check for outliers in the age section I chose to create a histogram which sho
 
 I then decided to check out the BMI distribution by creating it's own histogram which showed me the range of patient's BMI is pretty much equally distributed between 15 and 40. Looks good!
 <img width="1120" alt="Screenshot 2024-09-26 at 10 09 23 PM" src="https://github.com/user-attachments/assets/055019fa-b42c-4e8a-8d07-b06a849c3f9a">
+
+This is where I chose to drop two unnecessary features, PatientID and DoctorInCharge. To ensure the drop worked I used .info().
+<img width="1127" alt="Screenshot 2024-09-26 at 10 13 59 PM" src="https://github.com/user-attachments/assets/a7d781b5-fff9-4778-b130-0b54e6aa8138">
+
 
 
 
