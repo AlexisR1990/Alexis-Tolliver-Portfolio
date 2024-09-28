@@ -35,7 +35,7 @@ I then decided to check out the BMI distribution by creating it's own histogram 
 This is where I chose to drop two unnecessary features, PatientID and DoctorInCharge. To ensure the drop worked I used .info().
 <img width="1127" alt="Screenshot 2024-09-26 at 10 13 59 PM" src="https://github.com/user-attachments/assets/a7d781b5-fff9-4778-b130-0b54e6aa8138">
 
-Next I chose to look aat the skewness of each numerical feature.
+Next I chose to look at the skewness of each numerical feature.
 <img width="1124" alt="Screenshot 2024-09-28 at 10 17 07 AM" src="https://github.com/user-attachments/assets/3950c938-b72c-413d-8f42-7583f600bef9">
 <img width="1136" alt="Screenshot 2024-09-28 at 10 18 30 AM" src="https://github.com/user-attachments/assets/f17d4e86-35a2-4dce-b17e-4792c4276cc6">
 <img width="1126" alt="Screenshot 2024-09-28 at 10 19 14 AM" src="https://github.com/user-attachments/assets/4cd82af4-2684-4a87-98f3-8d963c094a21">
@@ -51,12 +51,49 @@ Next I chose to look aat the skewness of each numerical feature.
 <img width="1134" alt="Screenshot 2024-09-28 at 10 21 38 AM" src="https://github.com/user-attachments/assets/60d94444-6789-4cd7-84e9-dec3ccd41e0a">
 <img width="1134" alt="Screenshot 2024-09-28 at 10 21 56 AM" src="https://github.com/user-attachments/assets/9d128d9a-dcd3-4078-8992-ec05b129136a">
 
+Now let's take a deeper look into the categorical values. 
+<img width="1192" alt="Screenshot 2024-09-28 at 10 24 04 AM" src="https://github.com/user-attachments/assets/69a84fc8-dc7d-42fe-930d-c21e731a66aa">
+<img width="1124" alt="Screenshot 2024-09-28 at 10 25 40 AM" src="https://github.com/user-attachments/assets/66e7a62b-5b2f-45be-aafc-609faf4fd40a">
+
+To create a model we need to ensure the class distribution is blanaced which is why I chose to visualize the class distribution in a bar chart with 0 meaning No Diagnosis and 1 meaning Yes Diagnosis.
+<img width="1129" alt="Screenshot 2024-09-28 at 10 26 16 AM" src="https://github.com/user-attachments/assets/ed533b2d-0db2-446c-acf1-9d197fde59b8">
+
+Since the class is unbalanced I chose to use the SMOTE oversampling method and get a recount of the classes which show me a perfectly balanced target varible.
+<img width="1134" alt="Screenshot 2024-09-28 at 10 28 37 AM" src="https://github.com/user-attachments/assets/377ee439-5596-4515-a499-3054e6c98bd8">
+
+Now that the target variable is balanced we can now split our data into test and train sets.
+<img width="1120" alt="Screenshot 2024-09-28 at 10 29 48 AM" src="https://github.com/user-attachments/assets/4bd4cace-784b-48f0-bbfc-481649f0cbe5">
+
+To decide which model to use for this data set I created pipelines for a logistic regression model, decision tree model, and random forest model.
+<img width="1124" alt="Screenshot 2024-09-28 at 10 30 29 AM" src="https://github.com/user-attachments/assets/e872f5ce-a94f-42ac-ab2d-4f7171aa00fb">
+
+Although the Logistic Regression model has a slightly higher accuracy I decided to start with a random forest model. So next I created the random forest model and fit my data to it which gave me a great accuracy score.
+<img width="951" alt="Screenshot 2024-09-28 at 10 34 54 AM" src="https://github.com/user-attachments/assets/42e6f6c9-3a24-4f89-b16f-3a5077b02af6">
 
 
+To get a better idea of the model I created a confusion matrix.
+<img width="951" alt="Screenshot 2024-09-28 at 10 35 38 AM" src="https://github.com/user-attachments/assets/dbe5b226-1e1a-4519-86ac-89b1bc8bdec4">
 
+To get a clearer few I got the accuracy, precision, and recall of the model.
+<img width="950" alt="Screenshot 2024-09-28 at 10 39 40 AM" src="https://github.com/user-attachments/assets/4d9bdd89-19b7-434e-837a-d8944ee3f0c1">
 
+Getting the classification report of the model was my next step which shows us how the model is doing for each class, which in this case, is great.
+<img width="950" alt="Screenshot 2024-09-28 at 10 46 34 AM" src="https://github.com/user-attachments/assets/fb23a400-1599-476a-861e-d5768a469b5c">
 
+Next I wanted to see the mean absolute error which is 0.04 degrees which is telling us the error of this model is quite small.
+<img width="955" alt="Screenshot 2024-09-28 at 10 43 18 AM" src="https://github.com/user-attachments/assets/3601428c-8232-4c5f-9619-c9aac2e34e28">
 
+Getting the ROC Curve and the AUC score tells us this model is performing extremely well.
+<img width="1126" alt="Screenshot 2024-09-28 at 10 49 01 AM" src="https://github.com/user-attachments/assets/2adbaa1b-d47d-49e9-8bbd-37261f7ae09c">
+
+So let's get a view into a few of the decison trees created in the random forest model. Below is where I got a quick look into three trees.
+<img width="1132" alt="Screenshot 2024-09-28 at 10 51 26 AM" src="https://github.com/user-attachments/assets/433e5149-da90-49a8-a069-72e937ef6dda">
+<img width="995" alt="Screenshot 2024-09-28 at 10 52 28 AM" src="https://github.com/user-attachments/assets/87590a31-f881-4728-b17b-dfcc91721deb">
+<img width="1015" alt="Screenshot 2024-09-28 at 10 52 38 AM" src="https://github.com/user-attachments/assets/3107fc72-763e-4750-8320-4ef0fecf24bc">
+
+Lastly, I use a the for method to visualize a full tree created from the random forest model.
+<img width="1001" alt="Screenshot 2024-09-28 at 10 53 06 AM" src="https://github.com/user-attachments/assets/b9357a73-a40e-4d03-b3e8-6e47f1a5061f">
+<img width="1291" alt="Screenshot 2024-09-28 at 10 57 35 AM" src="https://github.com/user-attachments/assets/3898a6ab-c7dc-4cfe-861e-95530ccd1d4e">
 
 
 
