@@ -8,7 +8,7 @@ This is a personal project of mine where I analyzed an asthma data set of over 2
 
 
 ### Variables Used
-
+<img width="744" alt="Screenshot 2024-09-28 at 10 10 32 AM" src="https://github.com/user-attachments/assets/c528bfde-43b7-4e01-85fe-9b038d864404">
 
 
 ## Prepare Data Set
