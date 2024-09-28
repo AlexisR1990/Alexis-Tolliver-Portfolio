@@ -54,4 +54,6 @@ This is where I chose to drop two unnecessary features, PatientID and DoctorInCh
 
 ### References
 
+Woodyatt, A. (2019, October 30). Asthma patients could slash their carbon footprint by switching to “greener” inhalers. CNN. https://www.cnn.com/2019/10/30/health/asthma-greener-inhalers-intl-scli/index.html 
 
+Rabie El Kharoua. (2024). 🌬️ Asthma Disease Dataset 🌬️ [Data set]. Kaggle. https://doi.org/10.34740/KAGGLE/DSV/8669080
