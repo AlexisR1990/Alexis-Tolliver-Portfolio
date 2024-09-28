@@ -1,7 +1,9 @@
 # Asthma Analysis
 > By Alexis Tolliver
 > ###### [Back to home page](https://alexisr1990.github.io/Alexis-Tolliver-Portfolio/)
-> 
+>
+> <img width="793" alt="Screenshot 2024-09-28 at 10 11 39 AM" src="https://github.com/user-attachments/assets/bbeb0e8a-f857-413e-8f3e-659ebc2d9fd3">
+
 
 ## Summary
 This is a personal project of mine where I analyzed an asthma data set of over 2,000 patients, with the intent to view how different health markers, environmental factors, symptoms, and more influence a patient's chance of being diagnosed with asthma. Using Python I preprocessed the data, performed EDA, and created a random forest in order to understand the relationships between the factors more deeply. Once my model was created I obtain various statistics to ensure the model was a good fit for the data and then I pulled a decision tree out for further analysis.
