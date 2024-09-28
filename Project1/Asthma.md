@@ -35,10 +35,30 @@ I then decided to check out the BMI distribution by creating it's own histogram 
 This is where I chose to drop two unnecessary features, PatientID and DoctorInCharge. To ensure the drop worked I used .info().
 <img width="1127" alt="Screenshot 2024-09-26 at 10 13 59 PM" src="https://github.com/user-attachments/assets/a7d781b5-fff9-4778-b130-0b54e6aa8138">
 
+Next I chose to look aat the skewness of each numerical feature.
+<img width="1124" alt="Screenshot 2024-09-28 at 10 17 07 AM" src="https://github.com/user-attachments/assets/3950c938-b72c-413d-8f42-7583f600bef9">
+<img width="1136" alt="Screenshot 2024-09-28 at 10 18 30 AM" src="https://github.com/user-attachments/assets/f17d4e86-35a2-4dce-b17e-4792c4276cc6">
+<img width="1126" alt="Screenshot 2024-09-28 at 10 19 14 AM" src="https://github.com/user-attachments/assets/4cd82af4-2684-4a87-98f3-8d963c094a21">
+<img width="1133" alt="Screenshot 2024-09-28 at 10 19 29 AM" src="https://github.com/user-attachments/assets/adc55b46-8c25-4a22-967b-7c8d7b29c06b">
+<img width="1129" alt="Screenshot 2024-09-28 at 10 19 46 AM" src="https://github.com/user-attachments/assets/59f0b875-1899-4392-beb6-0058750e52d3">
+<img width="1130" alt="Screenshot 2024-09-28 at 10 20 04 AM" src="https://github.com/user-attachments/assets/5a65ab49-8498-4852-9c78-91169755d9f5">
+<img width="1136" alt="Screenshot 2024-09-28 at 10 20 16 AM" src="https://github.com/user-attachments/assets/8dd354a4-b8fa-4ed6-aa4a-643cfe78f351">
+<img width="1133" alt="Screenshot 2024-09-28 at 10 20 33 AM" src="https://github.com/user-attachments/assets/cda9f7f9-0fe1-428c-b9f2-ab535ee2a8ed">
+<img width="1138" alt="Screenshot 2024-09-28 at 10 20 46 AM" src="https://github.com/user-attachments/assets/9e4e9139-917f-412d-b5a6-aef5cb55f44f">
+<img width="1133" alt="Screenshot 2024-09-28 at 10 20 58 AM" src="https://github.com/user-attachments/assets/2aef767c-23cc-4196-9c43-15411a5f1cab">
+<img width="1128" alt="Screenshot 2024-09-28 at 10 21 08 AM" src="https://github.com/user-attachments/assets/77d3f4a2-21e9-452d-b9cb-f186c30e48d2">
+<img width="1141" alt="Screenshot 2024-09-28 at 10 21 20 AM" src="https://github.com/user-attachments/assets/d83d27f1-b8a2-49f0-982f-860b5ce11dcf">
+<img width="1134" alt="Screenshot 2024-09-28 at 10 21 38 AM" src="https://github.com/user-attachments/assets/60d94444-6789-4cd7-84e9-dec3ccd41e0a">
+<img width="1134" alt="Screenshot 2024-09-28 at 10 21 56 AM" src="https://github.com/user-attachments/assets/9d128d9a-dcd3-4078-8992-ec05b129136a">
 
 
 
-##
+
+
+
+
+
+
 
 
 ## Conclusion
