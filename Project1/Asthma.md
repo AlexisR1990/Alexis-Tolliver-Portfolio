@@ -93,6 +93,7 @@ F1 Score = 2 * ((0.86 * 0.86) / (0.86 + 0.86))
 The 0.86 Accuracy level is telling us that the model is correct 86% of the time when predicting if a patient is dagnosed with asthma.
 The 0.86 Precision level is telling us that 86% of the results were actually 
 The 0.86 Recall level is telling us that the model can find 86% of patient's with a asthma diagnosis.
+The 0.86 F1 Score is telling us that the model has a 86% performance level.
 
 Getting the mean absolute error is telling me that the models predictions are off by 13.67%.
 <img width="1124" alt="Screenshot 2024-09-30 at 10 58 16 AM" src="https://github.com/user-attachments/assets/bec57e59-a701-4a28-9577-a56249399eb7">
@@ -135,23 +136,21 @@ F1 Score = 2 * ((0.96 * 0.96) / (0.96 + 0.96))
 The 0.96 Accuracy level is telling us that the model is correct 96% of the time when predicting if a patient is dagnosed with asthma.
 The 0.96 Precision level is telling us that 96% of the results were actually 
 The 0.96 Recall level is telling us that the model can find 96% of patient's with a asthma diagnosis.
+The 0.96 Fl Score is telling us that the model has a 96% performance level.
 
-Getting the mean absolute error is telling me that the models predictions are off by 4.0%.
+Getting the mean absolute error for the second model is telling me that the models predictions are off by 4.0%.
 <img width="1028" alt="Screenshot 2024-09-30 at 10 48 21 AM" src="https://github.com/user-attachments/assets/178550d3-a371-40b5-a428-15f8ad3f27a2">
 
-Lastly, I wanted to plot the ROC Curve and obtain the AUC score. The AUC score is telling us that there is a 92% probability that the model with correctly rank randomly chosen patient's who are not diagnosed.
+Next I plotted the ROC Curve and obtained the AUC score for the random forest model. The AUC score is telling us that there is a 92% probability that the model with correctly rank randomly chosen patient's who are not diagnosed.
 <img width="1028" alt="Screenshot 2024-09-30 at 10 51 19 AM" src="https://github.com/user-attachments/assets/29439204-a865-4685-8e32-753c2bee8954">
 <img width="1039" alt="Screenshot 2024-09-30 at 10 51 37 AM" src="https://github.com/user-attachments/assets/7771486c-52c6-449d-b557-75c6b80df517">
 
-
-
-
-So let's get a view into a few of the decison trees created in the random forest model. Below is where I got a quick look into three trees.
+So let's get a view into a few of the decison trees created in the random forest model. Below is where I got a quick look into three different trees.
 <img width="1132" alt="Screenshot 2024-09-28 at 10 51 26 AM" src="https://github.com/user-attachments/assets/433e5149-da90-49a8-a069-72e937ef6dda">
 <img width="995" alt="Screenshot 2024-09-28 at 10 52 28 AM" src="https://github.com/user-attachments/assets/87590a31-f881-4728-b17b-dfcc91721deb">
 <img width="1015" alt="Screenshot 2024-09-28 at 10 52 38 AM" src="https://github.com/user-attachments/assets/3107fc72-763e-4750-8320-4ef0fecf24bc">
 
-Lastly, I use a the for method to visualize a full tree created from the random forest model.
+Lastly, I use a for loop to visualize a full tree created from the random forest model.
 <img width="1001" alt="Screenshot 2024-09-28 at 10 53 06 AM" src="https://github.com/user-attachments/assets/b9357a73-a40e-4d03-b3e8-6e47f1a5061f">
 <img width="1291" alt="Screenshot 2024-09-28 at 10 57 35 AM" src="https://github.com/user-attachments/assets/3898a6ab-c7dc-4cfe-861e-95530ccd1d4e">
 
