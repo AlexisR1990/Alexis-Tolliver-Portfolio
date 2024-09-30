@@ -95,7 +95,7 @@ The 0.86 Precision level is telling us that 86% of the results were actually
 The 0.86 Recall level is telling us that the model can find 86% of patient's with a asthma diagnosis.
 
 Getting the mean absolute error is telling me that the models predictions are off by 13.67%.
-<img width="708" alt="Screenshot 2024-09-30 at 10 28 07 AM" src="https://github.com/user-attachments/assets/7eb3601f-4af8-4da2-8ee6-9ebf54fbd0ba">
+<img width="1124" alt="Screenshot 2024-09-30 at 10 58 16 AM" src="https://github.com/user-attachments/assets/bec57e59-a701-4a28-9577-a56249399eb7">
 
 Lastly, I wanted to plot the ROC Curve and obtain the AUC score. The AUC score is telling us that there is a 92% probability that the model with correctly rank randomly chosen patient's who are not diagnosed.
 <img width="1131" alt="Screenshot 2024-09-30 at 10 33 54 AM" src="https://github.com/user-attachments/assets/1698e239-a614-43c6-903c-6ac72c4ae0e1">
