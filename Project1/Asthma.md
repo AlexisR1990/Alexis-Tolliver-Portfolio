@@ -62,6 +62,7 @@ Now that the target variable is balanced we can now split our data into test and
 To decide which model to use for this data set I created pipelines for a logistic regression model, decision tree model, and random forest model.
 <img width="1124" alt="Screenshot 2024-09-28 at 10 30 29 AM" src="https://github.com/user-attachments/assets/e872f5ce-a94f-42ac-ab2d-4f7171aa00fb">
 
+## First Model - Logistic Regression Model
 Since the Logistic Regression Model was shown as the best option based on the accuracy let's start there. This is where I created the Logisitc Regression Model and fit my data to it.
 <img width="980" alt="Screenshot 2024-09-30 at 9 52 04 AM" src="https://github.com/user-attachments/assets/2df02444-a253-403d-81f6-33b72372620e">
 
@@ -102,7 +103,7 @@ Lastly, I wanted to plot the ROC Curve and obtain the AUC score. The AUC score i
 
 
 
-
+## Second Model - Random Forest Model
 Next I decided to create a random forest model and fit my data to it which gave me a great accuracy score.
 <img width="951" alt="Screenshot 2024-09-28 at 10 34 54 AM" src="https://github.com/user-attachments/assets/42e6f6c9-3a24-4f89-b16f-3a5077b02af6">
 
