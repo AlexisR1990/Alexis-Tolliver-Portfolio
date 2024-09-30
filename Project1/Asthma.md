@@ -61,6 +61,8 @@ Now that the target variable is balanced we can now split our data into test and
 
 To decide which model to use for this data set I created pipelines for a logistic regression model, decision tree model, and random forest model.
 <img width="1124" alt="Screenshot 2024-09-28 at 10 30 29 AM" src="https://github.com/user-attachments/assets/e872f5ce-a94f-42ac-ab2d-4f7171aa00fb">
+As shown below, the Logistic Regression Model is the best option based on its accuracy.
+<img width="1037" alt="Screenshot 2024-09-30 at 10 54 51 AM" src="https://github.com/user-attachments/assets/7450e242-27d0-41d6-9956-b1354c9f9ca0">
 
 ## First Model - Logistic Regression Model
 Since the Logistic Regression Model was shown as the best option based on the accuracy let's start there. This is where I created the Logisitc Regression Model and fit my data to it.
