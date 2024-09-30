@@ -88,7 +88,7 @@ Recall = (495) / (495 + 68)
 F1 Score = 2 * ((Precision * Recall)/(Precision + Recall))
 or
 F1 Score = 2 * ((0.86 * 0.86) / (0.86 + 0.86))
-<img width="708" alt="Screenshot 2024-09-30 at 10 00 23 AM" src="https://github.com/user-attachments/assets/e2734a10-a0f0-4ad0-8f3c-c37278571154">
+<img width="1128" alt="Screenshot 2024-09-30 at 10 57 13 AM" src="https://github.com/user-attachments/assets/58efa0a5-b18f-47d8-b5ad-805c13ec2961">
 
 The 0.86 Accuracy level is telling us that the model is correct 86% of the time when predicting if a patient is dagnosed with asthma.
 The 0.86 Precision level is telling us that 86% of the results were actually 
