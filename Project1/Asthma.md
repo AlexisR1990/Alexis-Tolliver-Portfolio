@@ -105,32 +105,55 @@ Lastly, I wanted to plot the ROC Curve and obtain the AUC score. The AUC score i
 
 ## Second Model - Random Forest Model
 Next I decided to create a random forest model and fit my data to it which gave me a great accuracy score.
-<img width="951" alt="Screenshot 2024-09-28 at 10 34 54 AM" src="https://github.com/user-attachments/assets/42e6f6c9-3a24-4f89-b16f-3a5077b02af6">
+<img width="1028" alt="Screenshot 2024-09-30 at 10 44 38 AM" src="https://github.com/user-attachments/assets/af1a0b45-e3ef-4f5f-ae1c-6b6ee7b0ed52">
 
-To get a better idea of the model I created a confusion matrix.
-<img width="951" alt="Screenshot 2024-09-28 at 10 35 38 AM" src="https://github.com/user-attachments/assets/dbe5b226-1e1a-4519-86ac-89b1bc8bdec4">
+Then I retreved the second model's confusion matrix which is showing me there are 568 and 518 accurate predictions and 14 and 34 inaccurate predcitions. Using these results we can obtain the accuracy, precision, and recall values, as well as the f1-score.
+<img width="1028" alt="Screenshot 2024-09-30 at 10 44 55 AM" src="https://github.com/user-attachments/assets/9a38f5e3-6bad-404f-9adf-d55cba121f78">
 
-To get a clearer few I got the accuracy, precision, and recall of the model.
-<img width="950" alt="Screenshot 2024-09-28 at 10 39 40 AM" src="https://github.com/user-attachments/assets/4d9bdd89-19b7-434e-837a-d8944ee3f0c1">
-The 0.86 Accuracy level is telling us that the model is correct 86% of the time when predicting if a patient is dagnosed with asthma.
-The 0.86 Precision level is telling us that 86% of the results were actually 
-The 0.86 Recall level is telling us that the model can find 86% of patient's with a asthma diagnosis.
+Below we used python to calculate these values, but to do this ourselves we would use the following formulas.
 
-Getting the classification report of the model was my next step which shows us how the model is doing for each class, which in this case, is great.
-<img width="950" alt="Screenshot 2024-09-28 at 10 46 34 AM" src="https://github.com/user-attachments/assets/fb23a400-1599-476a-861e-d5768a469b5c">
+Accuracy = (True Positive + True Negative) / (True Positive + True Negative + False Positive + False Negative)
+or
+Accuracy = (568 + 518) / (568 + 518 + 14 + 34)
 
-Next I wanted to see the mean absolute error which is 0.04 degrees which is telling us the error of this model is quite small.
-<img width="955" alt="Screenshot 2024-09-28 at 10 43 18 AM" src="https://github.com/user-attachments/assets/3601428c-8232-4c5f-9619-c9aac2e34e28">
+Precision = (True Positive) / (True Positive + False Positive)
+or
+Precision = (568) / (568 + 14)
 
-Getting the ROC Curve and the AUC score tells us this model is performing extremely well.
-<img width="1126" alt="Screenshot 2024-09-28 at 10 49 01 AM" src="https://github.com/user-attachments/assets/2adbaa1b-d47d-49e9-8bbd-37261f7ae09c">
+Recall = (True Positive) / (True Positive + False Negative)
+or
+Recall = (568) / (568 + 34)
+
+F1 Score = 2 * ((Precision * Recall)/(Precision + Recall))
+or
+F1 Score = 2 * ((0.96 * 0.96) / (0.96 + 0.96))
+
+<img width="1026" alt="Screenshot 2024-09-30 at 10 45 31 AM" src="https://github.com/user-attachments/assets/493ccccf-7178-4bfd-b9a2-0f9a01805027">
+
+The 0.96 Accuracy level is telling us that the model is correct 96% of the time when predicting if a patient is dagnosed with asthma.
+The 0.96 Precision level is telling us that 96% of the results were actually 
+The 0.96 Recall level is telling us that the model can find 96% of patient's with a asthma diagnosis.
+
+Getting the mean absolute error is telling me that the models predictions are off by 4.0%.
+<img width="1028" alt="Screenshot 2024-09-30 at 10 48 21 AM" src="https://github.com/user-attachments/assets/178550d3-a371-40b5-a428-15f8ad3f27a2">
+
+Lastly, I wanted to plot the ROC Curve and obtain the AUC score. The AUC score is telling us that there is a 92% probability that the model with correctly rank randomly chosen patient's who are not diagnosed.
+<img width="1028" alt="Screenshot 2024-09-30 at 10 51 19 AM" src="https://github.com/user-attachments/assets/29439204-a865-4685-8e32-753c2bee8954">
+<img width="1039" alt="Screenshot 2024-09-30 at 10 51 37 AM" src="https://github.com/user-attachments/assets/7771486c-52c6-449d-b557-75c6b80df517">
+
+
+
 
 So let's get a view into a few of the decison trees created in the random forest model. Below is where I got a quick look into three trees.
+<img width="1027" alt="Screenshot 2024-09-30 at 10 51 48 AM" src="https://github.com/user-attachments/assets/d67aada8-e94f-43f0-8b78-dd65754866e7">
+
 <img width="1132" alt="Screenshot 2024-09-28 at 10 51 26 AM" src="https://github.com/user-attachments/assets/433e5149-da90-49a8-a069-72e937ef6dda">
 <img width="995" alt="Screenshot 2024-09-28 at 10 52 28 AM" src="https://github.com/user-attachments/assets/87590a31-f881-4728-b17b-dfcc91721deb">
 <img width="1015" alt="Screenshot 2024-09-28 at 10 52 38 AM" src="https://github.com/user-attachments/assets/3107fc72-763e-4750-8320-4ef0fecf24bc">
 
 Lastly, I use a the for method to visualize a full tree created from the random forest model.
+<img width="1033" alt="Screenshot 2024-09-30 at 10 52 17 AM" src="https://github.com/user-attachments/assets/f302cf9b-dbef-42e4-89ad-859def136608">
+
 <img width="1001" alt="Screenshot 2024-09-28 at 10 53 06 AM" src="https://github.com/user-attachments/assets/b9357a73-a40e-4d03-b3e8-6e47f1a5061f">
 <img width="1291" alt="Screenshot 2024-09-28 at 10 57 35 AM" src="https://github.com/user-attachments/assets/3898a6ab-c7dc-4cfe-861e-95530ccd1d4e">
 
@@ -140,6 +163,7 @@ Lastly, I use a the for method to visualize a full tree created from the random 
 ## Conclusion
 
 <br>
+Even though creating pipelines for each models accuracy based on our data show the Logisitc Model as being the best option, it is obivous that the Random Forest Model is actually the better option.
 <br>
 <br>
 
