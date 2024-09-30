@@ -147,15 +147,11 @@ Lastly, I wanted to plot the ROC Curve and obtain the AUC score. The AUC score i
 
 
 So let's get a view into a few of the decison trees created in the random forest model. Below is where I got a quick look into three trees.
-<img width="1027" alt="Screenshot 2024-09-30 at 10 51 48 AM" src="https://github.com/user-attachments/assets/d67aada8-e94f-43f0-8b78-dd65754866e7">
-
 <img width="1132" alt="Screenshot 2024-09-28 at 10 51 26 AM" src="https://github.com/user-attachments/assets/433e5149-da90-49a8-a069-72e937ef6dda">
 <img width="995" alt="Screenshot 2024-09-28 at 10 52 28 AM" src="https://github.com/user-attachments/assets/87590a31-f881-4728-b17b-dfcc91721deb">
 <img width="1015" alt="Screenshot 2024-09-28 at 10 52 38 AM" src="https://github.com/user-attachments/assets/3107fc72-763e-4750-8320-4ef0fecf24bc">
 
 Lastly, I use a the for method to visualize a full tree created from the random forest model.
-<img width="1033" alt="Screenshot 2024-09-30 at 10 52 17 AM" src="https://github.com/user-attachments/assets/f302cf9b-dbef-42e4-89ad-859def136608">
-
 <img width="1001" alt="Screenshot 2024-09-28 at 10 53 06 AM" src="https://github.com/user-attachments/assets/b9357a73-a40e-4d03-b3e8-6e47f1a5061f">
 <img width="1291" alt="Screenshot 2024-09-28 at 10 57 35 AM" src="https://github.com/user-attachments/assets/3898a6ab-c7dc-4cfe-861e-95530ccd1d4e">
 
