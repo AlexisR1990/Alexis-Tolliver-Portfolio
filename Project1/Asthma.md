@@ -50,10 +50,10 @@ Now let's take a deeper look into the continuous variables based on the target v
 <img width="1134" alt="Screenshot 2024-09-29 at 10 06 13 PM" src="https://github.com/user-attachments/assets/f7cbae62-c758-48ec-8564-4c3de267cce8">
 
 
-To create a model we need to ensure the class distribution is blanaced which is why I chose to visualize the class distribution in a bar chart with 0 meaning No Diagnosis and 1 meaning Yes Diagnosis.
+As you can tell from the visuals above the class distribution seems to be unbalanced which is why I chose to visualize the exact class distribution in a bar chart with 0 meaning No Diagnosis and 1 meaning Yes Diagnosis. As you can see there is a lot more No than there is Yes which is a proble when it comes to modeling so now we must balance the classes.
 <img width="1129" alt="Screenshot 2024-09-28 at 10 26 16 AM" src="https://github.com/user-attachments/assets/ed533b2d-0db2-446c-acf1-9d197fde59b8">
 
-Since the class is unbalanced I chose to use the SMOTE oversampling method and get a recount of the classes which show me a perfectly balanced target varible.
+Since the class is unbalanced and the majority of the weight is on the No, I chose to use the SMOTE oversampling method. After rebalancing the data I chose to get a recount of the classes in a bar chart, which showed me a perfectly balanced target varible.
 <img width="1134" alt="Screenshot 2024-09-28 at 10 28 37 AM" src="https://github.com/user-attachments/assets/377ee439-5596-4515-a499-3054e6c98bd8">
 
 Now that the target variable is balanced we can now split our data into test and train sets.
