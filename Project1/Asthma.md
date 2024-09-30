@@ -62,15 +62,58 @@ Now that the target variable is balanced we can now split our data into test and
 To decide which model to use for this data set I created pipelines for a logistic regression model, decision tree model, and random forest model.
 <img width="1124" alt="Screenshot 2024-09-28 at 10 30 29 AM" src="https://github.com/user-attachments/assets/e872f5ce-a94f-42ac-ab2d-4f7171aa00fb">
 
-Although the Logistic Regression model has a slightly higher accuracy I decided to start with a random forest model. So next I created the random forest model and fit my data to it which gave me a great accuracy score.
-<img width="951" alt="Screenshot 2024-09-28 at 10 34 54 AM" src="https://github.com/user-attachments/assets/42e6f6c9-3a24-4f89-b16f-3a5077b02af6">
+Since the Logistic Regression Model was shown as the best option based on the accuracy let's start there. This is where I created the Logisitc Regression Model and fit my data to it.
+<img width="980" alt="Screenshot 2024-09-30 at 9 52 04 AM" src="https://github.com/user-attachments/assets/2df02444-a253-403d-81f6-33b72372620e">
 
+Then I retreved the model's confusion matrix which is showing me there are 495 and 484 accurate predictions and 87 and 68 inaccurate predcitions. Using these results we can obtain the accuracy, precision, and recall values, as well as the f1-score.
+<img width="986" alt="Screenshot 2024-09-30 at 9 53 16 AM" src="https://github.com/user-attachments/assets/a9569f59-3884-4ffe-a4a3-a28129dd25a3">
+
+Below we used python to calculate these values, but to do this ourselves we would use the following formulas.
+
+Accuracy = (True Positive + True Negative) / (True Positive + True Negative + False Positive + False Negative)
+or
+Accuracy = (495 + 484) / (495 + 484 + 87 + 68)
+
+Precision = (True Positive) / (True Positive + False Positive)
+or
+Precision = (495) / (495 + 87)
+
+Recall = (True Positive) / (True Positive + False Negative)
+or
+Recall = (495) / (495 + 68)
+
+F1 Score = 2 * ((Precision * Recall)/(Precision + Recall))
+or
+F1 Score = 2 * ((0.86 * 0.86) / (0.86 + 0.86))
+<img width="708" alt="Screenshot 2024-09-30 at 10 00 23 AM" src="https://github.com/user-attachments/assets/e2734a10-a0f0-4ad0-8f3c-c37278571154">
+
+The 0.86 Accuracy level is telling us that the model is correct 86% of the time when predicting if a patient is dagnosed with asthma.
+The 0.86 Precision level is telling us that 86% of the results were actually 
+The 0.86 Recall level is telling us that the model can find 86% of patient's with a asthma diagnosis.
+
+Getting the mean absolute error is telling me that the models predictions are off by 13.67%.
+<img width="708" alt="Screenshot 2024-09-30 at 10 28 07 AM" src="https://github.com/user-attachments/assets/7eb3601f-4af8-4da2-8ee6-9ebf54fbd0ba">
+
+Lastly, I wanted to plot the ROC Curve and obtain the AUC score. The AUC score is telling us that there is a 92% probability that the model with correctly rank randomly chosen patient's who are not diagnosed.
+<img width="1131" alt="Screenshot 2024-09-30 at 10 33 54 AM" src="https://github.com/user-attachments/assets/1698e239-a614-43c6-903c-6ac72c4ae0e1">
+<img width="1127" alt="Screenshot 2024-09-30 at 10 35 34 AM" src="https://github.com/user-attachments/assets/c35b0f33-238f-4ebe-a760-c675af515352">
+
+
+
+
+
+
+Next I decided to create a random forest model and fit my data to it which gave me a great accuracy score.
+<img width="951" alt="Screenshot 2024-09-28 at 10 34 54 AM" src="https://github.com/user-attachments/assets/42e6f6c9-3a24-4f89-b16f-3a5077b02af6">
 
 To get a better idea of the model I created a confusion matrix.
 <img width="951" alt="Screenshot 2024-09-28 at 10 35 38 AM" src="https://github.com/user-attachments/assets/dbe5b226-1e1a-4519-86ac-89b1bc8bdec4">
 
 To get a clearer few I got the accuracy, precision, and recall of the model.
 <img width="950" alt="Screenshot 2024-09-28 at 10 39 40 AM" src="https://github.com/user-attachments/assets/4d9bdd89-19b7-434e-837a-d8944ee3f0c1">
+The 0.86 Accuracy level is telling us that the model is correct 86% of the time when predicting if a patient is dagnosed with asthma.
+The 0.86 Precision level is telling us that 86% of the results were actually 
+The 0.86 Recall level is telling us that the model can find 86% of patient's with a asthma diagnosis.
 
 Getting the classification report of the model was my next step which shows us how the model is doing for each class, which in this case, is great.
 <img width="950" alt="Screenshot 2024-09-28 at 10 46 34 AM" src="https://github.com/user-attachments/assets/fb23a400-1599-476a-861e-d5768a469b5c">
