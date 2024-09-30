@@ -29,7 +29,7 @@ Using .describe() was helfpul to understand the data a bit more deeply and have 
 This is where I chose to drop two unnecessary features, PatientID and DoctorInCharge. To ensure the drop worked I used .info().
 <img width="1127" alt="Screenshot 2024-09-26 at 10 13 59 PM" src="https://github.com/user-attachments/assets/a7d781b5-fff9-4778-b130-0b54e6aa8138">
 
-Next I chose to look at the skewness of each numerical feature.
+Next I chose to look at the skewness of each numerical feature. The visualizations below tell me the features ethnicity, smoking, pet allergy, eczema, hayfever, gastroesophageal reflux, and diagnosis are highly skewed.
 <img width="1124" alt="Screenshot 2024-09-28 at 10 17 07 AM" src="https://github.com/user-attachments/assets/3950c938-b72c-413d-8f42-7583f600bef9">
 <img width="1136" alt="Screenshot 2024-09-28 at 10 18 30 AM" src="https://github.com/user-attachments/assets/f17d4e86-35a2-4dce-b17e-4792c4276cc6">
 <img width="1126" alt="Screenshot 2024-09-28 at 10 19 14 AM" src="https://github.com/user-attachments/assets/4cd82af4-2684-4a87-98f3-8d963c094a21">
@@ -45,9 +45,10 @@ Next I chose to look at the skewness of each numerical feature.
 <img width="1134" alt="Screenshot 2024-09-28 at 10 21 38 AM" src="https://github.com/user-attachments/assets/60d94444-6789-4cd7-84e9-dec3ccd41e0a">
 <img width="1134" alt="Screenshot 2024-09-28 at 10 21 56 AM" src="https://github.com/user-attachments/assets/9d128d9a-dcd3-4078-8992-ec05b129136a">
 
-Now let's take a deeper look into the categorical values. 
-<img width="1192" alt="Screenshot 2024-09-28 at 10 24 04 AM" src="https://github.com/user-attachments/assets/69a84fc8-dc7d-42fe-930d-c21e731a66aa">
-<img width="1124" alt="Screenshot 2024-09-28 at 10 25 40 AM" src="https://github.com/user-attachments/assets/66e7a62b-5b2f-45be-aafc-609faf4fd40a">
+Now let's take a deeper look into the continuous variables based on the target variable, whether the patient was diagnosed or not.
+<img width="1124" alt="Screenshot 2024-09-29 at 10 05 07 PM" src="https://github.com/user-attachments/assets/c1433412-a13a-4253-a45d-7ad063f9369f">
+<img width="1134" alt="Screenshot 2024-09-29 at 10 06 13 PM" src="https://github.com/user-attachments/assets/f7cbae62-c758-48ec-8564-4c3de267cce8">
+
 
 To create a model we need to ensure the class distribution is blanaced which is why I chose to visualize the class distribution in a bar chart with 0 meaning No Diagnosis and 1 meaning Yes Diagnosis.
 <img width="1129" alt="Screenshot 2024-09-28 at 10 26 16 AM" src="https://github.com/user-attachments/assets/ed533b2d-0db2-446c-acf1-9d197fde59b8">
