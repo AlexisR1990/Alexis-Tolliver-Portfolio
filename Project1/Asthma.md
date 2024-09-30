@@ -26,12 +26,6 @@ Just for verification I decided to use .isnull().sum() to check for any missing 
 Using .describe() was helfpul to understand the data a bit more deeply and have a better idea of possible outliers.
 <img width="1120" alt="Screenshot 2024-09-26 at 10 05 35 PM" src="https://github.com/user-attachments/assets/2c3c9dda-94f9-4798-8720-d0d9d79fbda2">
 
-To check for outliers in the age section I chose to create a histogram which showed me exactly what the above statistics told me, distribution looks good. The age of patient's involved in this analysis range from 5 years old to 79 years old, which is perfectly understandable.
-<img width="1120" alt="Screenshot 2024-09-26 at 10 06 48 PM" src="https://github.com/user-attachments/assets/d2a3bdab-63f1-4329-8b94-f677d5db9bdc">
-
-I then decided to check out the BMI distribution by creating it's own histogram which showed me the range of patient's BMI is pretty much equally distributed between 15 and 40. Looks good!
-<img width="1120" alt="Screenshot 2024-09-26 at 10 09 23 PM" src="https://github.com/user-attachments/assets/055019fa-b42c-4e8a-8d07-b06a849c3f9a">
-
 This is where I chose to drop two unnecessary features, PatientID and DoctorInCharge. To ensure the drop worked I used .info().
 <img width="1127" alt="Screenshot 2024-09-26 at 10 13 59 PM" src="https://github.com/user-attachments/assets/a7d781b5-fff9-4778-b130-0b54e6aa8138">
 
